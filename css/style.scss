@@ -1,0 +1,16 @@
+$primary: #D2691E;
+$secondary: #4F4F4F;
+$font: Arial, Verdana, Tahoma; /* temporária */
+$size: 18px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icones{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+ }

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* temporária */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .icones {
+  background: var(#D2691E);
+}
+
+/*# sourceMappingURL=style.css.map */
