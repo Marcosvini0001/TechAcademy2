@@ -5,8 +5,38 @@
   padding: 0;
 }
 
-header .icones {
-  background: var(#D2691E);
+.header {
+  background-color: #D2691E;
+  width: 100%;
+  font-size: 18px;
+}
+.header .icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header li {
+  list-style: none;
+}
+.header li a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex .flex .flex-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24%;
+  margin: 3px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

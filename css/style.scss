@@ -9,8 +9,37 @@ $size: 18px;
     padding: 0;
 }
 
-.icones{
+.header{
+    background-color: $primary;
+    width: 100%;
+    font-size: $size;
+    .icones{
         display: flex;
         align-items: center;
         justify-content: space-between;
- }
+    }
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .flex .flex-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 24%;
+        margin: 3px;
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+}
