@@ -25,6 +25,15 @@ body {
 .header li a {
   text-decoration: none;
 }
+.header .botaoinfo {
+  margin-right: 30px;
+  /* Botão acrescentado */
+  color: white;
+}
+.header .botaoinfo i:hover {
+  transition: 0.5s;
+  color: #ccc;
+}
 
 .flex {
   display: flex;
@@ -58,6 +67,40 @@ footer {
   margin-top: 40px;
   padding: 5px;
   text-align: center;
+  text-decoration: none;
+}
+footer .paragrafofooter {
+  float: left;
+  margin-left: 20px;
+}
+footer .logofooter {
+  width: 100px;
+  margin-left: 130px;
+}
+footer .listagemfooter {
+  float: right;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+
+.listagemfooter {
+  display: none;
+}
+@media (min-width: 999px) {
+  .listagemfooter {
+    display: block;
+  }
+}
+
+.botaoinfo {
+  display: none;
+}
+@media (min-width: 999px) {
+  .botaoinfo {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

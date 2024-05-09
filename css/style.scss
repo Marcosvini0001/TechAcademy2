@@ -27,6 +27,14 @@ body{
             text-decoration: none;
         }
     }
+    .botaoinfo{
+        margin-right: 30px; /* Botão acrescentado */
+        color: white;
+    }
+    .botaoinfo i:hover{
+        transition: 0.5s;
+        color: #ccc;
+    }
 
 }
 
@@ -64,4 +72,38 @@ footer{
     margin-top: 40px;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
+
+    .paragrafofooter{
+        float: left;
+        margin-left: 20px;
+    }
+    .logofooter{
+        width: 100px;
+        margin-left: 130px;
+    }
+    .listagemfooter{
+        float: right;
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+    }
+}
+
+//MEDIA QUERIES
+$largura-maxima: 999px; 
+
+.listagemfooter{
+    display: none;
+    @media (min-width: #{ $largura-maxima }) { 
+        display: block; 
+    }
+}
+.botaoinfo {
+    display: none; 
+
+    
+    @media (min-width: #{ $largura-maxima }) { 
+        display: block; 
+    }
 }
