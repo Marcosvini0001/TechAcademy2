@@ -66,32 +66,40 @@ main{
     }
 }
 
-footer{
-    background-color: $primary;
+footer {
+    /* ARRUMAR O FOOTER */
+    display: flex;
+    background-color: #FF6600;
     color: white;
     margin-top: 40px;
     padding: 5px;
     text-align: center;
     text-decoration: none;
+    justify-content: space-between;
+ }
 
-    .paragrafofooter{
-        float: left;
-        margin-left: 20px;
-    }
-    .logofooter{
-        width: 100px;
-        margin-left: 130px;
-    }
-    .listagemfooter{
-        float: right;
-        text-decoration: none;
-        padding: 20px;
-        color: white;
-    }
+ .paragrafofooter p{
+    gap: 50px;
 }
+footer .logofooter {
+  width: 100px;
+  justify-content: space-between;
+ }
+footer .listagemfooter {
+  text-decoration: none;
+  color: white;
+  padding-top: 35px;
+  padding-right: 16px;
+ }
+ .pfooter{
+    padding-right: 150px;
+    padding-left: 16px;
+ }
+    
 
 //MEDIA QUERIES
 $largura-maxima: 999px; 
+
 
 .listagemfooter{
     display: none;
@@ -102,7 +110,6 @@ $largura-maxima: 999px;
 .botaoinfo {
     display: none; 
 
-    
     @media (min-width: #{ $largura-maxima }) { 
         display: block; 
     }
