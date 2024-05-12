@@ -61,6 +61,19 @@ main .jogos {
   margin: 40px;
 }
 
+.contatoform {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+}
+.contatoform .formulario {
+  background: #FF6600;
+  border-radius: 20px;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+
 footer {
   /* ARRUMAR O FOOTER */
   display: flex;
