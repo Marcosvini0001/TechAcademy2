@@ -35,6 +35,12 @@ body{
         transition: 0.5s;
         color: #ccc;
     }
+    .entrecontato{
+        font: $font;
+        color: white;
+        font-size: 10px;
+        padding-right: 32px;
+    }
 
 }
 
@@ -124,6 +130,13 @@ $largura-maxima: 999px;
 .botaoinfo {
     display: none; 
 
+    @media (min-width: #{ $largura-maxima }) { 
+        display: block; 
+    }
+}
+
+.entrecontato{
+    display: none;
     @media (min-width: #{ $largura-maxima }) { 
         display: block; 
     }

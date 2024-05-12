@@ -34,6 +34,12 @@ body {
   transition: 0.5s;
   color: #ccc;
 }
+.header .entrecontato {
+  font: Arial, Verdana, Tahoma;
+  color: white;
+  font-size: 10px;
+  padding-right: 32px;
+}
 
 .flex {
   display: flex;
@@ -121,6 +127,15 @@ footer .listagemfooter {
 }
 @media (min-width: 999px) {
   .botaoinfo {
+    display: block;
+  }
+}
+
+.entrecontato {
+  display: none;
+}
+@media (min-width: 999px) {
+  .entrecontato {
     display: block;
   }
 }
