@@ -1,6 +1,7 @@
 $primary: #FF6600;
 $secondary: #000000;
-$tertiary: #e65e03;
+$tertiary: #833400;
+$quaternary: #9c3f00;
 $font: Arial, Verdana, Tahoma; /* temporária */
 $font2: Raleway;
 $size: 18px;
@@ -64,7 +65,7 @@ body{
 
 main{
     .jogos{
-        background-color: $primary;
+        background-color: $quaternary;
         color: white;
         padding: 5px;
         border-radius: 5px;
@@ -90,7 +91,7 @@ main{
 footer {
     /* ARRUMAR O FOOTER */
     display: flex;
-    background-color: #FF6600;
+    background-color: $quaternary;
     color: white;
     margin-top: 40px;
     padding: 5px;

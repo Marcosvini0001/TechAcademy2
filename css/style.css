@@ -59,7 +59,7 @@ body {
 }
 
 main .jogos {
-  background-color: #FF6600;
+  background-color: #9c3f00;
   color: white;
   padding: 5px;
   border-radius: 5px;
@@ -83,7 +83,7 @@ main .jogos {
 footer {
   /* ARRUMAR O FOOTER */
   display: flex;
-  background-color: #FF6600;
+  background-color: #9c3f00;
   color: white;
   margin-top: 40px;
   padding: 5px;
