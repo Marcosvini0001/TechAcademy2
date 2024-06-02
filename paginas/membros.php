@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/mvz.png">
-    <title>MVGames</title>
-</head>
-<body class="body">
-    <header class="header" >
-        <nav class="navbar navbar-expand-lg" style="background-color: #9c3f00;" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a href="index.html">
-                <img src="img/mvz.png" alt="MVGames" title="MVGames" style="width: 80px;" alt="MV">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="membros.html">Membros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="feedback.html">Feedback</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>    
-    </header>
+
 
     <main class="main">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -71,7 +35,7 @@
 
             <div class="row">
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
-                <img src="img/vinii.jpg.png" alt="Marcos Vinicius Bartoli Senko" style="width: 100%;">
+                <img src="../img/mvz.png" alt="Marcos Vinicius Bartoli Senko" style="width: 100%;">
                 <a href="">
                   <i class="fa-brands fa-github"></i>
                 </a>
@@ -127,19 +91,4 @@
         </section>
     </main>
 
-    <footer class="footer"> <!--ALTERAÇÃO FOOTER-->
-      <div class="pfooter">
-        <p class="paragrafofooter">Desenvolvido por:<br>Marcos Vinicius<br>BS &copy;</p>
-      </div>
-      <img class="logofooter" src="img/mvz.png" alt="MVGames" title="MVGames">
-      <div class="d-flex gap-4">
-        <a class="listagemfooter" href="index.html" alt="">Home</a>
-        <a class="listagemfooter" href="membros.html" alt="">Membros</a>
-        <a class="listagemfooter" href="feedback.html" alt="">Feedback</a>
-      </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-</body>
-</html>
+   

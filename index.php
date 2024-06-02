@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/mvz.png">
     <title>MVGames</title>
@@ -13,7 +16,7 @@
     <header class="header" >
         <nav class="navbar navbar-expand-lg" style="background-color: #9c3f00;" data-bs-theme="dark">
             <div class="container-fluid">
-              <a href="index.html">
+              <a href="index.php?pagina=home.php">
                 <img src="img/mvz.png" alt="MVGames" title="MVGames" style="width: 80px;" alt="MV">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +25,13 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php?pagina=home.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="membros.html">Membros</a>
+                    <a class="nav-link" href="index.php?pagina=membros.php">Membros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="feedback.html">Feedback</a>
+                    <a class="nav-link" href="index.php?pagina=feedback.php">Feedback</a>
                   </li>
                 </ul>
               </div>
@@ -36,49 +39,40 @@
           </nav>    
     </header>
 
-    <main class="main">
-          <div class="jogos">
-            <h2><strong>Deixe aqui suas considerações</strong></h2>
-        </div>
-    
-        <div class="contatoform">
+    <main>
+        <?php
+            //imprimir o conteudo do array do GET
+            //print_r($_GET);
 
-          <div class="celular">
-            <img src="img/molde cel.png" alt="Pagina MVGames via Smartphone" title="Pagina MVGames via Smartphone">
-          </div>
-          
-          <div class="formulario">
-            <div class="formulario1">
-              <label for="text">Seu nome:</label>
-              <input id="texto" type="text" placeholder="Digite seu nome" /> <br>
-              <label for="email">Seu email:</label>
-              <input id="email" type="email" placeholder="Digite seu Email" /> <br>
-              <label for="mensagem">Digite aqui:</label>
-              <textarea name="mensagem" id="mensagem" required class="formulario" rows="5" style="background-color: white;"></textarea>
+            //recuperar a variavel pagina
+            $pagina = $_GET["pagina"] ?? "home";
 
-              <div class="confirmacaoform">
-                <button class="deletar" type="submit" style="background-color: #ad0000; padding: 4px; border-radius: 8px; color: white; margin-top: 4px; float: right;">Redefinir</button>
-              <button class="enviar" type="submit" style="background-color: #09e61b; padding: 4px; border-radius: 8px; color: white; margin-top: 4px; float: right; gap: 4px;">Enviar</button>
-            </div>
-            </div>
-          </div>
+            // paginas/home.php
+            $pagina = "paginas/{$pagina}.php";
 
-        </div>
-        
+            //verificar se o arquivo existe
+            if (file_exists($pagina)) {
+                include $pagina;
+            } else {
+                include "paginas/erro.php";
+            }
+
+        ?>
     </main>
 
-    <footer class="footer"> <!--ALTERAÇÃO FOOTER-->
+    <footer class="footer"> 
       <div class="pfooter">
         <p class="paragrafofooter">Desenvolvido por:<br>Marcos Vinicius<br>BS &copy;</p>
       </div>
       <img class="logofooter" src="img/mvz.png" alt="MVGames" title="MVGames">
       <div class="d-flex gap-4">
-        <a class="listagemfooter" href="index.html" alt="">Home</a>
-        <a class="listagemfooter" href="membros.html" alt="">Membros</a>
-        <a class="listagemfooter" href="feedback.html" alt="">Feedback</a>
+        <a class="listagemfooter" href="index.php?pagina=home.php">Home</a>
+        <a class="listagemfooter" href="index.php?pagina=membros.php">Membros</a>
+        <a class="listagemfooter" href="index.php?pagina=feedback.php">Feedback</a>
       </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/b3b83db5db.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
