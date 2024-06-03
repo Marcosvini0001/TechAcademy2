@@ -31,7 +31,7 @@
                     <a class="nav-link" href="index.php?pagina=membros">Membros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.php?pagina=feedback">Feedback</a>
+                    <a class="nav-link" href="index.php?pagina=suporte">Suporte</a>
                   </li>
                 </ul>
               </div>
@@ -70,7 +70,7 @@
       <div class="d-flex gap-4">
         <a class="listagemfooter" href="index.php?pagina=home">Home</a>
         <a class="listagemfooter" href="index.php?pagina=membros">Membros</a>
-        <a class="listagemfooter" href="index.php?pagina=feedback">Feedback</a>
+        <a class="listagemfooter" href="index.php?pagina=suporte">Suporte</a>
       </div>
     </footer>
 
