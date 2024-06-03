@@ -5,10 +5,6 @@
         </div>
     
         <div class="contatoform">
-
-          <div class="celular">
-            <img src="img/molde cel.png" alt="Pagina MVGames via Smartphone" title="Pagina MVGames via Smartphone">
-          </div>
           
           <div class="formulario">
             <div class="formulario1">

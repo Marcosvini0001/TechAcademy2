@@ -13,6 +13,9 @@
           <div class="carousel-item">
             <img src="img/Dangeon (2) (1).png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
           </div>
+          <div class="carousel-item">
+            <img src="img/galacticcarrosel.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,7 +79,7 @@
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=galactic">
-                  <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
+                  <img class="w-100" src="img/galactic.jpg" alt="Imagem" title="imagem">
                   </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
