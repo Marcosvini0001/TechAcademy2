@@ -1,6 +1,6 @@
 
     <main class="main">
-          <div class="jogos">
+          <div class="jogos" style="background-color: #411b01;">
             <h2><strong>Deixe aqui suas considerações</strong></h2>
         </div>
     

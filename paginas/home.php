@@ -25,9 +25,9 @@
         </div>
         </div>
 
-          <div class="jogos">
+          <div class="jogos" style="background-color: #411b01;">
             <h2><strong>Confira os Jogos: </strong></h2>
-        </div>
+          </div>
     
         <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 
@@ -74,38 +74,6 @@
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
                 </div>
               </div>    
-
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
-                    <h5 class="card-title">NOME DO JOGO</h5>
-                </div>
-
-                <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
-                </div>
-              </div>    
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
-                    <h5 class="card-title">NOME DO JOGO</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
-                </div>
-              </div>    
-
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
-                    <h5 class="card-title">NOME DO JOGO</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
-                  <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
-                </div>
-              </div>  
+            </div>  
         </section>
     </main>
