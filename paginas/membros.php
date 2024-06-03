@@ -11,18 +11,12 @@
                 <a href="">
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="">
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="">
-                  <i class="fa-solid fa-play"></i>
-                </a>
               </div>
-              <div class="col-10" style="background-color:#9c3f00; padding: 16px; color: aliceblue;">a</div>
+              <div class="col-10" style="background-color:#A68064; padding: 16px; color: aliceblue;">a</div>
             </div>
 
             <div class="row">
-              <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">a</div>
+              <div class="col-10" style="background-color: #5C3317; padding: 16px; color: aliceblue;">a</div>
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
                 <img src="img/mvz.png" alt="mv" style="width: 100%;">
                 <a href="">
@@ -38,11 +32,11 @@
                   <i class="fa-brands fa-github"></i>
                 </a>
               </div>
-              <div class="col-10" style="background-color: #9c3f00; padding: 16px; color: aliceblue;">a</div>
+              <div class="col-10" style="background-color: #A68064; padding: 16px; color: aliceblue;">a</div>
             </div>
 
             <div class="row">
-              <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">a</div>
+              <div class="col-10" style="background-color: #5C3317; padding: 16px; color: aliceblue;">a</div>
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
                 <img src="img/mvz.png" alt="mv" style="width: 100%;">
                 <a href="">

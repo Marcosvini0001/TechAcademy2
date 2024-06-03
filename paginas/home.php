@@ -25,14 +25,14 @@
         </div>
         </div>
 
-          <div class="jogos" style="background-color: #411b01;">
+          <div class="jogos" style="background-color: #411b01;"> 
             <h2><strong>Confira os Jogos: </strong></h2>
           </div>
     
         <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 
-            <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
+            <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
+                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
                     <h5 class="card-title">FlappyBurnes</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
@@ -42,8 +42,8 @@
                 </div>
               </div>  
               
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
+              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
+                <div class="card-header rounded-0 text-light" style="background-color:#A68064;">
                     <h5 class="card-title">SwampChallenge</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
@@ -53,8 +53,8 @@
                 </div>
               </div>    
 
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
+              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
+                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
                     <h5 class="card-title">Dangeon Survival</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
@@ -64,8 +64,8 @@
                 </div>
               </div>    
 
-              <div class="card" style="width: 18rem; border: 5px solid #411b01;">
-                <div class="card-header rounded-0 text-light" style="background-color: #411b01;">
+              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
+                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
                     <h5 class="card-title">NOME DO JOGO</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
@@ -77,3 +77,5 @@
             </div>  
         </section>
     </main>
+
+  <!-- 411b01 -->
