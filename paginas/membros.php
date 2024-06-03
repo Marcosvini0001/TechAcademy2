@@ -38,7 +38,7 @@
                   <i class="fa-brands fa-github" style="color:black"></i>
                 </a>
               </div>
-              <div class="col-10" style="background-color: #A68064; padding: 16px; color: aliceblue;"><h2></h2>
+              <div class="col-10" style="background-color: #A68064; padding: 16px; color: aliceblue;"><h2>Felipe Alves de Morais</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                Corrupti eveniet eos suscipit fugiat ipsam. Earum eveniet numquam, impedit doloribus sit deserunt quos 
                totam esse nisi distinctio soluta dicta incidunt eligendi.</p></div>
