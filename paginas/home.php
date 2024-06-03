@@ -36,7 +36,9 @@
                     <h5 class="card-title">FlappyBurnes</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/flappyjogo.png" alt="Imagem" title="imagem">
+                  <a href="index.php?pagina=flappy">
+                  <img class="w-100" src="img/flappy.jpg" alt="Imagem" title="imagem">
+                  </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary" style="background-color: #00CC00;">Jogar agora</a>
                 </div>
@@ -47,7 +49,9 @@
                     <h5 class="card-title">SwampChallenge</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/swampccc.png" alt="Imagem" title="imagem">
+                  <a href="index.php?pagina=swamp">
+                  <img class="w-100" src="img/swamp.jpg" alt="Imagem" title="imagem">
+                  </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
                 </div>
@@ -58,7 +62,9 @@
                     <h5 class="card-title">Dangeon Survival</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/dangeonsur.jpg" alt="Imagem" title="imagem">
+                  <a href="index.php?pagina=dangeon">
+                  <img class="w-100" src="img/dangeonsurvival.jpg" alt="Imagem" title="imagem">
+                  </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
                 </div>
@@ -69,7 +75,9 @@
                     <h5 class="card-title">NOME DO JOGO</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                    <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
+                  <a href="index.php?pagina=">
+                  <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
+                  </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
                 </div>
