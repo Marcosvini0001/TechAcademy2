@@ -72,10 +72,10 @@
 
               <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
                 <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
-                    <h5 class="card-title">NOME DO JOGO</h5>
+                    <h5 class="card-title">Galactic Annahillaion</h5>
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
-                  <a href="index.php?pagina=">
+                  <a href="index.php?pagina=galactic">
                   <img class="w-100" src="img/mvz.png" alt="Imagem" title="imagem">
                   </a>
                   <p class="card-text"></p>

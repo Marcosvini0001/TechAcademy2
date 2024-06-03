@@ -5,3 +5,5 @@
     <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus, inventore et ea omnis sequi expedita repellendus 
         reprehenderit dignissimos! Voluptatem, architecto magni? Voluptates facilis, atque nisi molestiae porro nemo minima!</p>
 </main>
+
+<!-- Criador botão de "jogar" no responsivo e ao clicar mostrar mensagem em JS que plataforma não suporta -->
