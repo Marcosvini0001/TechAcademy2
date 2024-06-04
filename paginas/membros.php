@@ -4,7 +4,6 @@
         </div>
     
         <section class="membros">
-
             <div class="row">
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
               <img src="img/vinii.png" alt="Marcos Vinicius Bartoli Senko" title="Marcos Vinicius" style="width: 100%;">
@@ -55,6 +54,37 @@
                 </a>
               </div>
             </div>
+        </section>
+
+        <section class="membros-mobile">
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+          <div class="card-body" style="background-color: #A68064; color: white;">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+          <div class="card-body" style="background-color: #5C3317; color: white;">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+          <div class="card-body" style="background-color: #A68064; color: white;">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+          <div class="card-body" style="background-color: #5C3317; color: white;">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
 
         </section>
 </main>

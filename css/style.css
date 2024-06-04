@@ -71,6 +71,12 @@ main .error h1 {
   text-align: center;
 }
 
+.membros-mobile {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
 .contatoform {
   display: flex;
   gap: 64px;
@@ -126,21 +132,15 @@ footer .listagemfooter {
   }
 }
 
-.botaoinfo {
-  display: none;
-}
-@media (min-width: 999px) {
-  .botaoinfo {
-    display: block;
+@media (max-width: 549px) {
+  .membros {
+    display: none;
   }
 }
 
-.entrecontato {
-  display: none;
-}
-@media (min-width: 999px) {
-  .entrecontato {
-    display: block;
+@media (min-width: 550px) {
+  .membros-mobile {
+    display: none;
   }
 }
 
