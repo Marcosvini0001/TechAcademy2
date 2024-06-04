@@ -64,8 +64,8 @@
               <h3>Marcos Vinicius Bartoli Senko</h3>
              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate veniam vitae porro, dolore saepe magni dolorum, 
               natus praesentium rem eius maiores fuga enim aliquid. Exercitationem labore vero magnam iusto asperiores?</p>
-              <button>Ir para o jogo</button>
-              <button>GitHub</button>
+              <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
+              <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
           </div>
         </div>
 
@@ -75,8 +75,8 @@
               <h3>André Roberto Azevedo</h3>
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nemo aliquid dignissimos odit molestias molestiae illo eaque 
               temporibus excepturi? Dolor maxime officia neque! Sapiente alias dignissimos qui eveniet ullam voluptatum!</p>
-              <button>Ir para o jogo</button>
-              <button>GitHub</button>
+              <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
+              <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
           </div>
         </div>
 
@@ -86,8 +86,8 @@
               <h3>Felipe Alves de Morais</h3>
              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente saepe ipsa consequatur, a aperiam eos consequuntur ipsum laborum, 
               quia numquam accusamus quod obcaecati aliquam, omnis officiis molestias voluptate quam voluptas?</p>
-              <button>Ir para o jogo</button>
-              <button>GitHub</button>
+              <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
+              <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
           </div>
         </div>
 
@@ -97,8 +97,8 @@
               <h3>Guilherme da Silva Freitas</h3>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium amet quas iste nobis magnam ad corporis minima natus. 
               Est in totam ratione possimus nobis magni, enim minima adipisci suscipit.</p>
-              <button>Ir para o jogo</button>
-              <button>GitHub</button>
+              <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
+              <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
           </div>
         </div>
 
