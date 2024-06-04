@@ -56,33 +56,41 @@
             </div>
         </section>
 
-        <section class="membros-mobile">
+        <section class="membros-mobile" style="flex-direction: column; align-items: center; gap: 32px;">
 
         <div class="card" style="width: 18rem;">
-            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius Bartoli Senko">
           <div class="card-body" style="background-color: #A68064; color: white;">
-             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3>Marcos Vinicius Bartoli Senko</h3>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate veniam vitae porro, dolore saepe magni dolorum, 
+              natus praesentium rem eius maiores fuga enim aliquid. Exercitationem labore vero magnam iusto asperiores?</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+            <img src="img/andre.jpg" class="card-img-top" alt="André Roberto Azevedo">
           <div class="card-body" style="background-color: #5C3317; color: white;">
-             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3>André Roberto Azevedo</h3>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum nemo aliquid dignissimos odit molestias molestiae illo eaque 
+              temporibus excepturi? Dolor maxime officia neque! Sapiente alias dignissimos qui eveniet ullam voluptatum!</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+            <img src="img/felipe.jpg" class="card-img-top" alt="Felipe Alves de Morais">
           <div class="card-body" style="background-color: #A68064; color: white;">
-             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3>Felipe Alves de Morais</h3>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente saepe ipsa consequatur, a aperiam eos consequuntur ipsum laborum, 
+              quia numquam accusamus quod obcaecati aliquam, omnis officiis molestias voluptate quam voluptas?</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img src="img/vinii.png" class="card-img-top" alt="Marcos Vinicius">
+            <img src="img/guilherme.jpg" class="card-img-top" alt="Guilherme da Silva Freitas">
           <div class="card-body" style="background-color: #5C3317; color: white;">
-             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3>Guilherme da Silva Freitas</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium amet quas iste nobis magnam ad corporis minima natus. 
+              Est in totam ratione possimus nobis magni, enim minima adipisci suscipit.</p>
           </div>
         </div>
 
