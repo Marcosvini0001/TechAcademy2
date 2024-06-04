@@ -66,7 +66,9 @@
       <div class="pfooter">
         <p class="paragrafofooter">Desenvolvido por:<br>Marcos Vinicius<br>BS &copy;</p>
       </div>
+      <a href="index.php?pagina=home">
       <img class="logofooter" src="img/mvz.png" alt="MVGames" title="MVGames">
+      </a>
       <div class="d-flex gap-4">
         <a class="listagemfooter" href="index.php?pagina=home">Home</a>
         <a class="listagemfooter" href="index.php?pagina=membros">Membros</a>
