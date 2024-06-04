@@ -16,7 +16,7 @@
     <header class="header" >
         <nav class="navbar navbar-expand-lg" style="background-color: #9c3f00;" data-bs-theme="dark">
             <div class="container-fluid">
-              <a href="index.php?pagina=home.php">
+              <a href="index.php?pagina=home">
                 <img src="img/mvz.png" alt="MVGames" title="MVGames" style="width: 80px;" alt="MV">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
