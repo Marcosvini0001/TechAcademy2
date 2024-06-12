@@ -34,12 +34,6 @@ body {
   transition: 0.5s;
   color: #ccc;
 }
-.header .entrecontato {
-  font: Arial, Verdana, Tahoma;
-  color: white;
-  font-size: 10px;
-  padding-right: 32px;
-}
 
 .flex {
   display: flex;
@@ -71,8 +65,15 @@ main .error h1 {
   text-align: center;
 }
 main .img-ind {
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+main .conheca {
+  display: flex;
+  justify-content: space-between;
+  padding: 500px;
+  width: 30px;
 }
 
 .contatoform {
