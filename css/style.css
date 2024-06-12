@@ -70,15 +70,9 @@ main .error h1 {
   color: white;
   text-align: center;
 }
-
-.btn-jogar {
+main .img-ind {
   display: flex;
   justify-content: center;
-  background-color: #00CC00;
-  padding: 8px;
-  text-decoration: none;
-  border-radius: 8px;
-  color: white;
 }
 
 .contatoform {

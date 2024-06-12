@@ -2,8 +2,9 @@
     <img src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes" style="width: 100%; padding: 16px; border-radius: 8px;">
     <h3 style="text-align: center; color: white;">FlappyBurnes</h3>
 
-    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus, inventore et ea omnis sequi expedita repellendus 
-        reprehenderit dignissimos! Voluptatem, architecto magni? Voluptates facilis, atque nisi molestiae porro nemo minima!</p>
+    <p style="color: white;">Prepare-se para uma aventura emocionante no mundo de FlappyBurnes! Embarque nesta jornada desafiadora e viva a emoção de voar pelos 
+        céus enquanto desvia de obstáculos e alcança pontuações épicas. Desafie seus amigos, melhore suas habilidades e mergulhe na diversão viciante deste jogo. 
+        Venha voar alto com FlappyBurnes e descubra até onde você pode chegar!</p>
 
         <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
 </main>

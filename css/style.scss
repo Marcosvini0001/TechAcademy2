@@ -78,17 +78,13 @@ main{
             text-align: center;
         }
     }
+    .img-ind{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
-.btn-jogar{ //ANALISAR DEPOIS O KOALA
-    display: flex;
-    justify-content: center;
-    background-color: #00CC00;
-     padding: 8px; 
-     text-decoration: none; 
-     border-radius: 8px; 
-     color: white;
-}
 
 .contatoform{
     display: flex;
