@@ -4,4 +4,6 @@
 
     <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus, inventore et ea omnis sequi expedita repellendus 
         reprehenderit dignissimos! Voluptatem, architecto magni? Voluptates facilis, atque nisi molestiae porro nemo minima!</p>
+
+        <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
 </main>

@@ -71,11 +71,14 @@ main .error h1 {
   text-align: center;
 }
 
-.membros-mobile {
+.btn-jogar {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 16px;
+  background-color: #00CC00;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
 }
 
 .contatoform {
