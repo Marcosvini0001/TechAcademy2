@@ -2,55 +2,45 @@
 /* temporária */
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
-  background-color: #000000;
-}
+  background-color: #000000; }
 
 .header {
   background-color: #FF6600;
   width: 100%;
-  font-size: 18px;
-}
-.header .icones {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.header li {
-  list-style: none;
-}
-.header li a {
-  text-decoration: none;
-}
-.header .botaoinfo {
-  margin-right: 30px;
-  /* Botão acrescentado */
-  color: white;
-}
-.header .botaoinfo i:hover {
-  transition: 0.5s;
-  color: #ccc;
-}
+  font-size: 18px; }
+  .header .icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header li {
+    list-style: none; }
+    .header li a {
+      text-decoration: none; }
+  .header .botaoinfo {
+    margin-right: 30px;
+    /* Botão acrescentado */
+    color: white; }
+  .header .botaoinfo i:hover {
+    transition: 0.5s;
+    color: #ccc; }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
-.flex .flex .flex-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 24%;
-  margin: 3px;
-  box-shadow: 0 0 10px #ccc;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  justify-content: center; }
+  .flex .flex .flex-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    margin: 3px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; }
 
 main .jogos {
   background-color: #411b01;
@@ -58,36 +48,21 @@ main .jogos {
   padding: 5px;
   border-radius: 5px;
   text-align: center;
-  margin: 40px;
-}
+  margin: 40px; }
 main .error h1 {
   color: white;
-  text-align: center;
-}
-main .img-ind {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-main .conheca {
-  display: flex;
-  justify-content: space-between;
-  padding: 500px;
-  width: 30px;
-}
+  text-align: center; }
 
 .contatoform {
   display: flex;
   gap: 64px;
-  justify-content: center;
-}
-.contatoform .formulario {
-  background: #A68064;
-  border-radius: 20px;
-  padding: 100px;
-  display: flex;
-  align-items: center;
-}
+  justify-content: center; }
+  .contatoform .formulario {
+    background: #A68064;
+    border-radius: 20px;
+    padding: 100px;
+    display: flex;
+    align-items: center; }
 
 footer {
   /* ARRUMAR O FOOTER */
@@ -98,49 +73,37 @@ footer {
   padding: 5px;
   text-align: center;
   text-decoration: none;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .paragrafofooter p {
-  gap: 50px;
-}
+  gap: 50px; }
 
 footer .logofooter {
   width: 100px;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 footer .listagemfooter {
   text-decoration: none;
   color: white;
   padding-top: 35px;
-  padding-right: 16px;
-}
+  padding-right: 16px; }
 
 .pfooter {
   padding-right: 150px;
-  padding-left: 16px;
-}
+  padding-left: 16px; }
 
 .listagemfooter {
-  display: none;
-}
-@media (min-width: 999px) {
-  .listagemfooter {
-    display: block;
-  }
-}
+  display: none; }
+  @media (min-width: 999px) {
+    .listagemfooter {
+      display: block; } }
 
 @media (max-width: 549px) {
   .membros {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media (min-width: 550px) {
   .membros-mobile {
-    display: none;
-  }
-}
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
