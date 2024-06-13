@@ -75,12 +75,38 @@ main{
     }
 }
 
-.conheca{
+.conheca-tambem{
+    background-color: $primary;
+    margin-top: 10%;
+    margin: 40px;
+    padding: 4px;
+    p{
+        text-align: center;
+        color: white;
+        font: $font2;
+    }
+}
+
+
+.card{
     transition: transform 0.3s ease;
     &:hover{
         transform: scale(1.08);
     }
 }
+.card-conheca{
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    padding: 32px;
+    .conheca{
+        transition: transform 0.3s ease;
+        &:hover{
+            transform: scale(1.08);
+        }
+    }
+}
+
 
 .contatoform{
     display: flex;
