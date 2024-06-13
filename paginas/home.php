@@ -40,7 +40,7 @@
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=flappy">
-                  <img class="w-100" src="img/flappy.jpg" alt="Imagem" title="imagem">
+                  <img class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
                   </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary" style="background-color: #00CC00;">Jogar agora</a>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=swamp">
-                  <img class="w-100" src="img/swamp.jpg" alt="Imagem" title="imagem">
+                  <img class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
                   </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=dangeon">
-                  <img class="w-100" src="img/dangeonsurvival.jpg" alt="Imagem" title="imagem">
+                  <img class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
                   </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=galactic">
-                  <img class="w-100" src="img/galactic.jpg" alt="Imagem" title="imagem">
+                  <img class="w-100" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
                   </a>
                   <p class="card-text"></p>
                   <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>

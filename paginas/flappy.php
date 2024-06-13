@@ -15,7 +15,8 @@
         <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
     </div>
 
-    <p style="color: white; padding-top: 80px;">Conheça também:</p>
+    <p style="color: white; padding-top: 80px; margin: 40px;">Conheça também:</p>
+
 
     <div class="conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
         <a href="index.php?pagina=flappy">
