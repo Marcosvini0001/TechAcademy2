@@ -34,57 +34,50 @@
     
         <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 
-            <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
-                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
-                    <h5 class="card-title">FlappyBurnes</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
+            <div class="card" style="width: 18rem; border: 5px solid black;">
+                <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=flappy">
-                  <img class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
+                  <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
                   </a>
+                  <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary" style="background-color: #00CC00;">Jogar agora</a>
+                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
-              </div>  
+              </div> 
               
-              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
-                <div class="card-header rounded-0 text-light" style="background-color:#A68064;">
-                    <h5 class="card-title">SwampChallenge</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
+              <div class="card" style="width: 18rem; border: 5px solid black;">
+                <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=swamp">
-                  <img class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
+                  <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
                   </a>
+                  <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
+                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
-              </div>    
-
-              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
-                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
-                    <h5 class="card-title">Dangeon Survival</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
+              </div> 
+              
+              <div class="card" style="width: 18rem; border: 5px solid black;">
+                <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=dangeon">
-                  <img class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
+                  <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
                   </a>
+                  <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
+                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
-              </div>    
+              </div> 
 
-              <div class="card" style="width: 18rem; border: 5px solid #5C4033;">
-                <div class="card-header rounded-0 text-light" style="background-color: #A68064;">
-                    <h5 class="card-title">Galactic Annahillaion</h5>
-                </div>
-                <div class="card-body d-flex flex-column align-items-center">
+              <div class="card" style="width: 18rem; border: 5px solid black;">
+                <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=galactic">
-                  <img class="w-100" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
+                  <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
                   </a>
+                  <h5 style="color: white; margin: 5px;">Galactic Annahillaion</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn btn-primary d-flex align-items-center" style="background-color: #00CC00;">Jogar agora</a>
+                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
-              </div>    
+              </div> 
+                
             </div>  
         </section>
     </main>
