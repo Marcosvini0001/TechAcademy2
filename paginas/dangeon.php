@@ -5,9 +5,12 @@
     <h3 style="text-align: center; color: white;">SwampChallenge</h3>
 
 
-    <div style="margin-right: 500px; margin-left: 500px;">
+    <div style="margin-right: 300px; margin-left: 300px;">
     <p style="color: white;">Um jogo de sobrevivencia casual, Top-Down, off-line, RPG onde temos que sobreviver a hondas de monstros,com armas e poderes magicos e
         sobreviver ao maximo.Plataforma de computadores windows, linux e macOS, com mecânicas top-down usando o Mouse e o Teclado.</p>
+        <p style="color: white;">Desenvolvedor: André Roberto Azevedo</p>
+        <p style="color: white;">Ano: 2024</p>
+        <p style="color: white;">Categoria: RPG</p>
     </div>
 
     <div style="text-align: center; margin: 32px;">

@@ -53,6 +53,11 @@ main .error h1 {
   color: white;
   text-align: center; }
 
+.card {
+  transition: transform 0.3s ease; }
+  .card:hover {
+    transform: scale(1.08); }
+
 .contatoform {
   display: flex;
   gap: 64px;

@@ -77,7 +77,7 @@
                   <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
               </div> 
-                
+
             </div>  
         </section>
     </main>

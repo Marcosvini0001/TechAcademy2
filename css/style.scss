@@ -75,8 +75,12 @@ main{
     }
 }
 
-
-
+.conheca{
+    transition: transform 0.3s ease;
+    &:hover{
+        transform: scale(1.08);
+    }
+}
 
 .contatoform{
     display: flex;

@@ -4,17 +4,17 @@
     </div>
     <h3 style="text-align: center; color: white;">SwampChallenge</h3>
 
-    <div style="margin-right: 500px; margin-left: 500px;">
+    <div style="margin-right: 300px; margin-left: 300px;">
     <p style="color: white;">Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
     Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.</p>
+        <p style="color: white;">Desenvolvedor: Marcos Vinicius Bartoli Senko</p>
+        <p style="color: white;">Ano: 2024</p>
+        <p style="color: white;">Categoria: Aventura e Luta</p>
     </div>
-
 
     <div style="text-align: center; margin: 32px;">
         <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
     </div>
-   
-
 
     <p style="color: white; padding-top: 80px; margin: 40px;">Conheça também:</p>
 

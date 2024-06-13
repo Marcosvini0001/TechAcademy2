@@ -7,8 +7,8 @@
             <div class="row">
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
               <img src="img/vinii.png" alt="Marcos Vinicius Bartoli Senko" title="Marcos Vinicius" style="width: 100%; padding: 8px;">
-              <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
-                <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
+              <button style="background-color: #32CD32; padding: 4px; border-radius: 8px;">Ir para o jogo</button>
+                <button style="background-color: aliceblue; padding: 4px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
               </div>
               <div class="col-10" style="background-color:#A68064; padding: 16px; color: aliceblue;"><h2>Marcos Vinicius Bartoli Senko</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -17,22 +17,22 @@
             </div>
 
             <div class="row">
-              <div class="col-10" style="background-color: #5C3317; padding: 16px; color: aliceblue;"><h2>André Roberto Azevedo</h2>
+              <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;"><h2>André Roberto Azevedo</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Tenetur dolores quam ipsam quia perferendis eius autem commodi blanditiis nesciunt cum fugit ex temporibus facere nam est ad asperiores, minima deserunt.
               </p></div>
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
                 <img src="img/andre.jpg" alt="Andre" title="Andre" style="width: 100%; padding: 8px;">
-                <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
-                <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
+                <button style="background-color: #32CD32; padding: 4px; border-radius: 8px;">Ir para o jogo</button>
+                <button style="background-color: aliceblue; padding: 4px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
               </div>
             </div>
 
             <div class="row">
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
                 <img src="img/felipe.jpg" alt="Felipe" title="Felipe" style="width: 100%; padding: 8px;">
-                <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
-                <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
+                <button style="background-color: #32CD32; padding: 4px; border-radius: 8px;">Ir para o jogo</button>
+                <button style="background-color: aliceblue; padding: 4px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
               </div>
               <div class="col-10" style="background-color: #A68064; padding: 16px; color: aliceblue;"><h2>Felipe Alves de Morais</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -41,13 +41,13 @@
             </div>
 
             <div class="row">
-              <div class="col-10" style="background-color: #5C3317; padding: 16px; color: aliceblue;"><h2>Guilherme da Silva Freitas</h2>
+              <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;"><h2>Guilherme da Silva Freitas</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas pariatur facere accusamus explicabo culpa dolor ex enim dolorem saepe, 
               molestiae voluptatem, nihil dolore libero reprehenderit cum doloribus ipsa ea possimus!</p></div>
               <div class="col-2" style="background-color: aliceblue; padding: 16px;">
                 <img src="img/guilherme.jpg" alt="Guilherme" title="Guilherme" style="width: 100%; padding: 8px;">
-                <button style="background-color: #32CD32; padding: 8px; border-radius: 8px;">Ir para o jogo</button>
-                <button style="background-color: aliceblue; padding: 8px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
+                <button style="background-color: #32CD32; padding: 4px; border-radius: 8px;">Ir para o jogo</button>
+                <button style="background-color: aliceblue; padding: 4px; border-radius: 8px;"><i class="fa-brands fa-github" style="color:black"></i>GitHub</button>
               </div>
             </div>
         </section>

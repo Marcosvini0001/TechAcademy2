@@ -5,10 +5,13 @@
     <h3 style="text-align: center; color: white;">FlappyBurnes</h3>
 
 
-    <div style="margin-right: 500px; margin-left: 500px;">
+    <div style="margin-right: 300px; margin-left: 300px;">
     <p style="color: white;"><p style="color: white;">Prepare-se para uma aventura emocionante no mundo de FlappyBurnes! Embarque nesta jornada desafiadora e viva a emoção de voar pelos
         céus enquanto desvia de obstáculos e alcança pontuações épicas. Desafie seus amigos, melhore suas habilidades e mergulhe na diversão viciante deste jogo.
         Venha voar alto com FlappyBurnes e descubra até onde você pode chegar!</p>
+        <p style="color: white;">Desenvolvedor: Felipe Alves de Morais</p>
+        <p style="color: white;">Ano: 2024</p>
+        <p style="color: white;">Categoria: Aventura</p>
     </div>
 
     <div style="text-align: center; margin: 32px;">
