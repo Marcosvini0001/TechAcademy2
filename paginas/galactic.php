@@ -1,20 +1,40 @@
 <main class="galactic">
-    <div class="img-ind" style="width: 100%; text-align: center; padding: 32px;">
-        <img style=" border: 4px solid #FF6600; border-radius: 16px;" src="img/galactic.jpg" alt="SwampChallenge" title="SwampChallenge">
+    <div class="desktop-game">
+        <div class="img-ind" style="width: 100%; text-align: center; padding: 32px;">
+            <img style=" border: 4px solid #FF6600; border-radius: 16px;" src="img/galactic.jpg" alt="SwampChallenge" title="SwampChallenge">
+        </div>
+        <h3 style="text-align: center; color: white;">Galactic Annahillaion</h3>
+
+
+        <div style="margin-right: 300px; margin-left: 300px;">
+            <p style="color: white;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
+                missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso</p>
+            <p style="color: white;">Desenvolvedor: Guilherme da Silva Freitas</p>
+            <p style="color: white;">Ano: 2024</p>
+            <p style="color: white;">Categoria: Aventura</p>
+            <p style="color: white;">Plataforma: PC</p>
+        </div>
+
+        <div style="text-align: center; margin: 32px;">
+            <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+        </div>
     </div>
-    <h3 style="text-align: center; color: white;">Galactic Annahillaion</h3>
 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-    <div style="margin-right: 300px; margin-left: 300px;">
-        <p style="color: white;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
-            missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso</p>
-        <p style="color: white;">Desenvolvedor: Guilherme da Silva Freitas</p>
-        <p style="color: white;">Ano: 2024</p>
-        <p style="color: white;">Categoria: Aventura</p>
-    </div>
+    <div class="jogo-responsive">
+        <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+            <a href="index.php?pagina=galactic">
+                <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic annihilation" title="Galactic annihilation">
+            </a>
+            <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
+                <p style="color: #fff;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
+                missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso.</p>
 
-    <div style="text-align: center; margin: 32px;">
-        <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+                <div style="text-align: center; margin: 32px;">
+                    <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+                </div>
+        </div>
     </div>
 
     <div class="conheca-tambem">

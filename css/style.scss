@@ -2,7 +2,8 @@ $primary: #FF6600;
 $secondary: #000000;
 $tertiary: #833400;
 $quaternary: #9c3f00;
-$font: Arial, Verdana, Tahoma; /* temporária */
+$font: Arial, Verdana, Tahoma;
+/* temporária */
 $font2: Raleway;
 $size: 18px;
 
@@ -11,29 +12,37 @@ $size: 18px;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: $secondary;
 }
-.header{
+
+.header {
     background-color: $primary;
     width: 100%;
     font-size: $size;
-    .icones{
+
+    .icones {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    li{
+
+    li {
         list-style: none;
-        a{
+
+        a {
             text-decoration: none;
         }
     }
-    .botaoinfo{
-        margin-right: 30px; /* Botão acrescentado */
+
+    .botaoinfo {
+        margin-right: 30px;
+        /* Botão acrescentado */
         color: white;
     }
-    .botaoinfo i:hover{
+
+    .botaoinfo i:hover {
         transition: 0.5s;
         color: #ccc;
     }
@@ -45,6 +54,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
     .flex .flex-card {
         display: flex;
         flex-direction: column;
@@ -55,11 +65,11 @@ body{
         border-radius: 5px;
         text-align: center;
         margin-bottom: 20px;
-}
+    }
 }
 
-main{
-    .jogos{
+main {
+    .jogos {
         background-color: #411b01;
         color: white;
         padding: 5px;
@@ -67,51 +77,73 @@ main{
         text-align: center;
         margin: 40px;
     }
-    .error{
-        h1{
+
+    .error {
+        h1 {
             color: white;
             text-align: center;
         }
     }
 }
 
-.conheca-tambem{
+.conheca-tambem {
     background-color: $primary;
     margin-top: 10%;
     margin: 40px;
     padding: 4px;
-    p{
+
+    p {
         text-align: center;
         color: white;
         font: $font2;
     }
 }
 
-.card{
+.card {
     transition: transform 0.3s ease;
-    &:hover{
+
+    &:hover {
         transform: scale(1.08);
     }
 }
-.card-conheca{
+
+.card-conheca {
     display: flex;
     justify-content: flex-start;
     gap: 32px;
     padding: 32px;
-    .conheca{
+
+    .conheca {
         transition: transform 0.3s ease;
-        &:hover{
+
+        &:hover {
             transform: scale(1.08);
         }
     }
 }
 
+.container{
+    display: flex
+    justify-content center
+    gap 4px
+}
 
-.contatoform{
+
+.jogo-responsive{
+    width: 18rem; 
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+
+.contatoform {
     display: flex;
     gap: 64px;
     justify-content: center;
-    .formulario{
+
+    .formulario {
         background: #A68064;
         border-radius: 20px;
         padding: 100px;
@@ -130,49 +162,67 @@ footer {
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
- }
+}
 
- .paragrafofooter p{
+.paragrafofooter p {
     gap: 50px;
 }
+
 footer .logofooter {
-  width: 100px;
-  justify-content: space-between;
- }
+    width: 100px;
+    justify-content: space-between;
+}
+
 footer .listagemfooter {
-  text-decoration: none;
-  color: white;
-  padding-top: 35px;
-  padding-right: 16px;
- }
- .pfooter{
+    text-decoration: none;
+    color: white;
+    padding-top: 35px;
+    padding-right: 16px;
+}
+
+.pfooter {
     padding-right: 150px;
     padding-left: 16px;
- }
-    
+}
+
 
 //MEDIA QUERIES
-$largura-maxima: 999px; 
+$largura-maxima: 999px;
 
 
-.listagemfooter{
+.listagemfooter {
     display: none;
-    @media (min-width: #{ $largura-maxima }) { 
-        display: block; 
+
+    @media (min-width: #{ $largura-maxima }) {
+        display: block;
     }
 }
 
-    .membros {
-    @media (max-width: 549px) {
-      display: none;
-        }
+.membros {
+    @media (max-width: 799px) {
+        display: none;
     }
+}
 
-    @media (min-width: 550px) {
-        .membros-mobile {
-          display: none;
-        }
-      }
+@media (min-width: 550px) {
+    .membros-mobile {
+        display: none;
+    }
+}
+
+.desktop-game {
+    display: none;
+    @media (min-width: 799px) {
+        display: block;
+    }
+}
+////////////////////////////////
+.jogo-responsive{
+    display: none;
+    @media (max-width: 800px) {
+        display: block;
+    }
+}
 
 
-      
+  
