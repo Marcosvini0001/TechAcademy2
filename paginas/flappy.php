@@ -28,7 +28,7 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <div class="jogo-responsive">
-        <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+        <div style="background-color: black;">
             <a href="index.php?pagina=flappy">
                 <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
             </a>

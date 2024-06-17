@@ -72,7 +72,7 @@
 
 
 
-
+<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO -------------------------------------------->
 
   <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 

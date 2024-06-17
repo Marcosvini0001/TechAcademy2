@@ -133,8 +133,8 @@ main {
     width: 18rem; 
     border: 5px solid black;
     display: flex;
-    justify-content: center;
-    flex-direction: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -210,19 +210,35 @@ $largura-maxima: 999px;
     }
 }
 
-.desktop-game {
+.desktop-game{
     display: none;
     @media (min-width: 799px) {
         display: block;
     }
 }
-////////////////////////////////
+///////////////////////////////////////////////////// REVISAR OS CÓDIGOS ABAIXO
 .jogo-responsive{
     display: none;
     @media (max-width: 800px) {
         display: block;
     }
 }
+
+.card-conheca{
+    display: none;
+    @media (min-width: 799px) {
+        display: block;
+    }
+}
+
+.contatoform{
+    @media (min-width: 690px) {
+        display: block;
+    }
+}
+
+
+
 
 
   

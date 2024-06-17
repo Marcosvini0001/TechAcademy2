@@ -5,7 +5,7 @@
         </div>
     
         <div class="contatoform">
-          
+          <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO -------------------------------------------->
           <div class="formulario">
             <div class="formulario1">
               <label for="text">Seu nome:</label>

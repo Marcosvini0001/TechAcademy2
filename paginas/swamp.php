@@ -42,6 +42,7 @@
         <p><strong>Conheça também:</strong></p>
     </div>
 
+<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO -------------------------------------------->
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div>

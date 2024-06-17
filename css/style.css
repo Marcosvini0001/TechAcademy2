@@ -105,8 +105,8 @@ main .error h1 {
   width: 18rem;
   border: 5px solid black;
   display: flex;
-  justify-content: center;
-  flex-direction: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contatoform {
@@ -175,11 +175,11 @@ footer .listagemfooter {
     display: none;
   }
 }
-.desktop-game {
+.desktop-game .card-conheca {
   display: none;
 }
 @media (min-width: 799px) {
-  .desktop-game {
+  .desktop-game .card-conheca {
     display: block;
   }
 }
@@ -189,6 +189,21 @@ footer .listagemfooter {
 }
 @media (max-width: 800px) {
   .jogo-responsive {
+    display: block;
+  }
+}
+
+.card-conheca {
+  display: none;
+}
+@media (min-width: 799px) {
+  .card-conheca {
+    display: block;
+  }
+}
+
+@media (min-width: 690px) {
+  .contatoform {
     display: block;
   }
 }
