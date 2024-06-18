@@ -52,7 +52,7 @@
                   </a>
                   <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
                   <p class="card-text"></p>
-                  <a href="swamp/index.html" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+                  <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
               </div> 
               

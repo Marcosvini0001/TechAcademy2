@@ -15,11 +15,12 @@
         </div>
 
         <div style="text-align: center; margin: 32px;">
-            <a href="swamp/index.html" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+            <a href="swamp/index.html" target="_blank" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
         </div>
     </div>
 
-    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
+
 
     <div class="jogo-responsive">
         <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
@@ -42,7 +43,7 @@
         <p><strong>Conheça também:</strong></p>
     </div>
 
-<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO -------------------------------------------->
+<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 -------------------------------------------->
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div>

@@ -72,7 +72,7 @@
 
 
 
-<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO -------------------------------------------->
+<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 -------------------------------------------->
 
   <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 
