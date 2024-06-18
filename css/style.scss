@@ -224,20 +224,23 @@ $largura-maxima: 999px;
     }
 }
 
-.card-conheca{
-    display: none;
-    @media (min-width: 799px) {
-        display: block;
-    }
-}
-
 .contatoform{
     @media (min-width: 690px) {
         display: block;
     }
 }
 
+@media (max-width: 799px){
+    .container{
+        display: none;
+    }
+}
 
+.card-conheca{
+    @media (min-width: 799px) {
+        flex-direction: column;
+    }
+}
 
 
 

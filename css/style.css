@@ -175,11 +175,11 @@ footer .listagemfooter {
     display: none;
   }
 }
-.desktop-game .card-conheca {
+.desktop-game {
   display: none;
 }
 @media (min-width: 799px) {
-  .desktop-game .card-conheca {
+  .desktop-game {
     display: block;
   }
 }
@@ -193,18 +193,15 @@ footer .listagemfooter {
   }
 }
 
-.card-conheca {
-  display: none;
-}
-@media (min-width: 799px) {
-  .card-conheca {
+@media (min-width: 690px) {
+  .contatoform {
     display: block;
   }
 }
 
-@media (min-width: 690px) {
-  .contatoform {
-    display: block;
+@media (max-width: 799px) {
+  .container {
+    display: none;
   }
 }
 

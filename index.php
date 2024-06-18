@@ -39,7 +39,6 @@
           </nav>    
     </header>
 
-    
     <main>
         <?php
             //imprimir o conteudo do array do GET
