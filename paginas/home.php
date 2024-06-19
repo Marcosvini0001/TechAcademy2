@@ -41,7 +41,7 @@
                   </a>
                   <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+                  <a href="flappy/index.html" class="btn" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
               </div> 
               
@@ -63,7 +63,7 @@
                   </a>
                   <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+                  <a href="dangeon/index.html" class="btn" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
               </div> 
 
@@ -74,7 +74,7 @@
                   </a>
                   <h5 style="color: white; margin: 5px;">Galactic Annahillaion</h3>
                   <p class="card-text"></p>
-                  <a href="#" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+                  <a href="galactic/index.html" class="btn" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a>
                 </div>
               </div> 
 

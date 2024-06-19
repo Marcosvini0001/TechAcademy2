@@ -11,7 +11,7 @@
           Ir para o Jogo
         </a>
 
-        <a href="https://github.com/Marcosvini0001" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
+        <a href="https://github.com/Marcosvini0001" target="_blank" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
           <i class="fa-brands fa-github" style="color:black"></i>GitHub
         </a>
 
@@ -35,7 +35,7 @@
         <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=dangeon">
           Ir para o Jogo
         </a>
-        <a href="https://github.com/Azvedo-06" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
+        <a href="https://github.com/Azvedo-06" target="_blank" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
           <i class="fa-brands fa-github" style="color:black"></i>GitHub
         </a>
       </div>
@@ -47,7 +47,7 @@
         <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=flappy">
           Ir para o Jogo
         </a>
-        <a href="https://github.com/FelipeTr00/TechAcademy2/" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
+        <a href="https://github.com/FelipeTr00/TechAcademy2/" target="_blank" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
           <i class="fa-brands fa-github" style="color:black"></i>GitHub
         </a>
       </div>
@@ -69,7 +69,7 @@
         <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=galactic">
           Ir para o Jogo
         </a>
-        <a href="https://github.com/guilhermefreitas450/" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
+        <a href="https://github.com/guilhermefreitas450/" target="_blank" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
           <i class="fa-brands fa-github" style="color:black"></i>GitHub
         </a>
       </div>
