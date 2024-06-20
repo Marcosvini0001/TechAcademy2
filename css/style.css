@@ -171,7 +171,7 @@ footer .listagemfooter {
 }
 
 @media (min-width: 550px) {
-  .membros-mobile {
+  .membros-mobile .btn-pc {
     display: none;
   }
 }
@@ -189,12 +189,6 @@ footer .listagemfooter {
 }
 @media (max-width: 800px) {
   .jogo-responsive {
-    display: block;
-  }
-}
-
-@media (min-width: 690px) {
-  .contatoform {
     display: block;
   }
 }

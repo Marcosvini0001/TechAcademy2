@@ -205,7 +205,7 @@ $largura-maxima: 999px;
 }
 
 @media (min-width: 550px) {
-    .membros-mobile {
+    .membros-mobile .btn-pc {  //rever btn-pc
         display: none;
     }
 }
@@ -233,26 +233,13 @@ $largura-maxima: 999px;
 
 
 //-------------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 3 NA PÁGINA SUPORTE.PHP--------------------------------------------//
-.contatoform{
-    @media (min-width: 690px) {
-        display: block;
-    }
-}
+
 
 
 //------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 - É PARA NÃO APARECER EM DESKTOP, SOMENTE EM MOBILE- PÁGINA MEMBROS.PHP--------------------------------------------//
 @media (max-width: 799px){
     .container{
         display: none;
-    }
-}
-
-
-
-//------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 - RESPONSIVIDADE PARA MOBILE, EM DESKTOP ESTÁ TUDO OK! PÁGINAS SWAMP.PHP, GALACTIC.PHP, FLAPPY.PHP E DANGEON.PHP-------------------------------------------//
-.card-conheca{
-    @media (min-width: 799px) {
-        flex-direction: column;
     }
 }
 

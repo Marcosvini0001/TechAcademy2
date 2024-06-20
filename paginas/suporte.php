@@ -9,9 +9,9 @@
           <div class="formulario">
             <div class="formulario1">
               <label for="text">Seu nome:</label>
-              <input id="texto" type="text" placeholder="Digite seu nome" /> <br>
+              <input class="form-control" id="texto" type="text" placeholder="Digite seu nome" /> <br>
               <label for="email">Seu email:</label>
-              <input id="email" type="email" placeholder="Digite seu Email" /> <br>
+              <input class="form-control" id="email" type="email" placeholder="Digite seu Email" /> <br>
               <label for="mensagem">Digite aqui:</label>
               <textarea name="mensagem" id="mensagem" required class="formulario" rows="5" style="background-color: white;"></textarea>
 

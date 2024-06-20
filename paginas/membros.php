@@ -26,7 +26,7 @@
     <div class="row">
       <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">
         <h2>André Roberto Azevedo</h2>
-        <p>André, desenvolvedor do site ... e criador do jogo ..., tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+        <p>André, desenvolvedor do site ... e criador do jogo Dangeon Survival, tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
           Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. André estuda no Centro Universitário Integrado.
         </p>
       </div>
@@ -53,7 +53,7 @@
       </div>
       <div class="col-10" style="background-color: #A68064; padding: 16px; color: aliceblue;">
         <h2>Felipe Alves de Morais</h2>
-        <p>Felipe, desenvolvedor do site ... e criador do jogo Flappy Burnes, tem 29 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+        <p>Felipe, desenvolvedor do site Orange e criador do jogo Flappy Burnes, tem 29 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
           Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Felipe estuda no Centro Universitário Integrado.</p>
       </div>
     </div>
@@ -61,7 +61,7 @@
     <div class="row">
       <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">
         <h2>Guilherme da Silva Freitas</h2>
-        <p>Guilherme, desenvolvedor do site ... e criador do jogo ..., tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+        <p>Guilherme, desenvolvedor do site ... e criador do jogo Galactic annihilation, tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
           Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Guilherme estuda no Centro Universitário Integrado.</p>
       </div>
       <div class="col-2" style="background-color: aliceblue; padding: 16px;">

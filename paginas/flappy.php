@@ -14,9 +14,10 @@
             <p style="color: white;">Desenvolvedor: Felipe Alves de Morais</p>
             <p style="color: white;">Ano: 2024</p>
             <p style="color: white;">Categoria: Aventura</p>
-            <p style="color: white;">Plataforma: PC</p>
+            <p style="color: white;">Plataforma: Mobile</p>
         </div>
 
+<!--fazer mensagem em JS que a plataforma nao suporte pois o jogo é mobile -->
         <div style="text-align: center; margin: 32px;">
             <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
         </div>
@@ -38,7 +39,7 @@
                     Venha voar alto com FlappyBurnes e descubra até onde você pode chegar!</p>
 
                 <div style="text-align: center; margin: 32px;">
-                    <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+                    <a href="flappy/index.html" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
                 </div>
         </div>
     </div>
