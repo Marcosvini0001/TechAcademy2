@@ -20,6 +20,28 @@
         </div>
     </div>
 
+    <div class="jogos">
+        <h2><strong>Imagens de SwampChallenge</strong></h2>
+    </div>
+
+    <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/galactic1.png" alt="Galactic annihilation" title="Galactic annihilation">
+        </div>
+    
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/galactic2.png" alt="Galactic annihilation" title="Galactic annihilation">
+        </div>
+        
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/galactic3.png" alt="Galactic annihilation" title="Galactic annihilation">
+        </div>
+
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/galactic4.png" alt="Galactic annihilation" title="Galactic annihilation">
+        </div>
+    </div>
+
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
     <div class="jogo-responsive">
@@ -37,8 +59,9 @@
         </div>
     </div>
 
+
     <div class="jogos">
-        <p><strong>Conheça também:</strong></p>
+        <h2><strong>Conheça também:</strong></h2>
     </div>
 
 

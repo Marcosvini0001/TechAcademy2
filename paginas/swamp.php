@@ -63,7 +63,7 @@
 
 
     <div class="jogos">
-        <p><strong>Conheça também:</strong></p>
+    <h2><strong>Conheça também:</strong></h2>
     </div>
 
     <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 -------------------------------------------->

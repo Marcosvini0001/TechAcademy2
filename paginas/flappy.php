@@ -23,6 +23,24 @@
         </div>
     </div>
 
+    <div class="jogos">
+        <h2><strong>Imagens de SwampChallenge</strong></h2>
+    </div>
+
+    <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy1.png" alt="FlappyBurnes" title="FlappyBurnes">
+        </div>
+    
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy2.png" alt="FlappyBurnes" title="FlappyBurnes">
+        </div>
+        
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy3.png" alt="FlappyBurnes" title="FlappyBurnes">
+        </div>
+    </div>
+
 
 
 
@@ -48,7 +66,7 @@
 
 
     <div class="jogos">
-        <p><strong>Conheça também:</strong></p>
+    <h2><strong>Conheça também:</strong></h2>
     </div>
 
 
