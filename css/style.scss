@@ -99,7 +99,7 @@ main {
     }
 }
 
-.card {
+.card { //GALERIA
     transition: transform 0.3s ease;
 
     &:hover {
@@ -107,7 +107,7 @@ main {
     }
 }
 
-.card-conheca {
+.card-conheca { //GALERIA
     display: flex;
     justify-content: flex-start;
     gap: 32px;

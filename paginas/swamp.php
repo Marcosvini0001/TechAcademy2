@@ -19,7 +19,31 @@
         </div>
     </div>
 
-        <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="jogos">
+        <h2><strong>Imagens de SwampChallenge</strong></h2>
+    </div>
+
+    <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp1.png" alt="SwampChallenge" title="SwampChallenge">
+        </div>
+    
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp2.png" alt="SwampChallenge" title="SwampChallenge">
+        </div>
+        
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp3.png" alt="SwampChallenge" title="SwampChallenge">
+        </div>
+
+        <div data-aos="fade"> <!-- desenvolvendo -->
+            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp4.png" alt="SwampChallenge" title="SwampChallenge">
+        </div>
+    </div>
+
+
+    <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
 
     <div class="jogo-responsive">
@@ -29,7 +53,7 @@
             </a>
             <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
                 <p style="color: #fff;">Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
-                Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.</p>
+                    Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.</p>
 
                 <div style="text-align: center; margin: 32px;">
                     <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
@@ -38,12 +62,11 @@
     </div>
 
 
-
-    <div class="conheca-tambem">
+    <div class="jogos">
         <p><strong>Conheça também:</strong></p>
     </div>
 
-<!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 -------------------------------------------->
+    <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 -------------------------------------------->
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div>

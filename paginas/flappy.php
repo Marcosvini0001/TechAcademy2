@@ -47,7 +47,7 @@
 
 
 
-    <div class="conheca-tambem">
+    <div class="jogos">
         <p><strong>Conheça também:</strong></p>
     </div>
 
