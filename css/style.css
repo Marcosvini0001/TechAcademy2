@@ -189,7 +189,7 @@ footer .listagemfooter {
 .jogo-responsive {
   display: none;
 }
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .jogo-responsive {
     display: block;
   }
