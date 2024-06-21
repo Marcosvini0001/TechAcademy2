@@ -85,8 +85,6 @@ main .error h1 {
 }
 
 .card-conheca {
-  display: flex;
-  justify-content: flex-start;
   gap: 32px;
   padding: 32px;
 }
@@ -186,32 +184,23 @@ footer .listagemfooter {
   }
 }
 
-.jogo-responsive .btn-mobile {
+.jogo-responsive, .card-membros {
   display: none;
   /* Ou visibility: hidden; */
 }
 
 @media (max-width: 800px) {
-  .jogo-responsive .btn-mobile {
+  .jogo-responsive, .card-membros {
     display: block;
     /* Ou o display desejado, como flex, grid, inline-block */
     /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
-  }
-}
-.membrosresp {
-  display: none;
-}
-
-@media (max-width: 799px) {
-  .membrosresp {
-    display: block;
   }
 }
 .contatoform {
   display: none;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 560px) {
   .contatoform {
     display: block;
   }

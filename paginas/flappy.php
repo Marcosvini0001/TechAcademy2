@@ -27,7 +27,7 @@
         <h2><strong>Imagens de SwampChallenge</strong></h2>
     </div>
 
-    <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
+    <div class="card-conheca text-center style="margin: 30px;">
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/flappy1.png" alt="FlappyBurnes" title="FlappyBurnes">
         </div>
@@ -47,7 +47,7 @@
         <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO     //////////////////////////////////////////////////////////////////////////////// -->
 
     <div class="jogo-responsive">
-        <div style="background-color: black;">
+        <div style="background-color: black;" class="text-center">
             <a href="index.php?pagina=flappy">
                 <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
             </a>
@@ -70,7 +70,7 @@
     </div>
 
 
-    <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
+    <div class="card-conheca d-flex justify-content-start" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div>
             <a href="index.php?pagina=swamp">

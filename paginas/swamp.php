@@ -66,7 +66,7 @@
     <h2><strong>Conheça também:</strong></h2>
     </div>
 
-    <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 1 -------------------------------------------->
+    <!------------------------------------------------------------------------------------------->
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div>

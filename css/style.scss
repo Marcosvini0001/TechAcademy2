@@ -110,8 +110,8 @@ main {
 
 .card-conheca {
     //GALERIA
-    display: flex;
-    justify-content: flex-start;
+    //display: flex;
+    //justify-content: flex-start;
     gap: 32px;
     padding: 32px;
 
@@ -226,25 +226,14 @@ $largura-maxima: 999px;
 
 ///////////////////////////////////////////////////// REVISAR OS CÓDIGOS ABAIXO /////////////////////////////////////////
 
-.jogo-responsive {
+.jogo-responsive, .card-membros{
     display: none; /* Ou visibility: hidden; */
 }
 
 @media (max-width: 800px) {
-    .jogo-responsive {
+    .jogo-responsive, .card-membros{
         display: block; /* Ou o display desejado, como flex, grid, inline-block */
         /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
-    }
-}
-
-
-.membrosresp{
-    display: none;
-}
-
-@media (max-width: 799px) {
-    .membrosresp{
-        display: block;
     }
 }
 
@@ -253,7 +242,7 @@ $largura-maxima: 999px;
     display: none;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 560px) {
     .contatoform{
         display: block;
     }
