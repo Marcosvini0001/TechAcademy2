@@ -226,7 +226,7 @@ $largura-maxima: 999px;
 //----------------------------RESPONSIVIDADE PARA MOBILE, EM DESKTOP ESTÁ TUDO OK! PÁGINAS SWAMP.PHP, GALACTIC.PHP, FLAPPY.PHP E DANGEON.PHP ----------------------///
 .jogo-responsive{
     display: none;
-    @media (max-width: 800px) {
+    @media (min-width: 800px) {
         display: block;
     }
 }
@@ -237,9 +237,9 @@ $largura-maxima: 999px;
 
 
 //------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 - É PARA NÃO APARECER EM DESKTOP, SOMENTE EM MOBILE- PÁGINA MEMBROS.PHP--------------------------------------------//
-@media (max-width: 799px){
-    .container{
-        display: none;
+.container{
+    @media (max-width: 799px){
+        display: block;
     }
 }
 

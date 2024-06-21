@@ -34,7 +34,7 @@
     
         <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
 
-            <div class="card" style="width: 18rem; border: 5px solid black;">
+            <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
                 <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=flappy">
                   <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
@@ -46,7 +46,7 @@
                 </div>
               </div> 
               
-              <div class="card" style="width: 18rem; border: 5px solid black;">
+              <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
                 <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=swamp">
                   <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
@@ -57,7 +57,7 @@
                 </div>
               </div> 
               
-              <div class="card" style="width: 18rem; border: 5px solid black;">
+              <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
                 <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=dangeon">
                   <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
@@ -68,7 +68,7 @@
                 </div>
               </div> 
 
-              <div class="card" style="width: 18rem; border: 5px solid black;">
+              <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
                 <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                   <a href="index.php?pagina=galactic">
                   <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
