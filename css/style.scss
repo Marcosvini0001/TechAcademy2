@@ -238,22 +238,23 @@ $largura-maxima: 999px;
 }
 
 
+.membrosresp{
+    display: none;
+}
 
-//----------------------------RESPONSIVIDADE PARA MOBILE, EM DESKTOP ESTÁ TUDO OK! PÁGINAS SWAMP.PHP, GALACTIC.PHP, FLAPPY.PHP E DANGEON.PHP ----------------------///
-//@media(max-width: #{ $largura-maxima }) {
-   // .jogo-responsive {
-       // display: block;
-   // }
-//}
-
-
-//-------------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 3 NA PÁGINA SUPORTE.PHP--------------------------------------------//
-
-
-
-//------------------------RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 - É PARA NÃO APARECER EM DESKTOP, SOMENTE EM MOBILE- PÁGINA MEMBROS.PHP--------------------------------------------//
 @media (max-width: 799px) {
-    .container{
+    .membrosresp{
+        display: block;
+    }
+}
+
+
+.contatoform{
+    display: none;
+}
+
+@media (max-width: 560px) {
+    .contatoform{
         display: block;
     }
 }

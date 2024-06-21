@@ -25,15 +25,15 @@
     </div>
 
     <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon1.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
     
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon2.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
         
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon3.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
     </div>

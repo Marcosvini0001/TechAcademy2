@@ -84,7 +84,7 @@
 
   <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 -------------------------------------------->
 
-  <section class="container d-flex flex-wrap justify-content-center gap-4 mt-4">
+  <section class="membrosresp d-flex flex-wrap justify-content-center gap-4 mt-4">
 
     <div class="card-membros" style="width: 18rem; border: 5px solid black;">
       <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">

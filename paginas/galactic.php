@@ -25,19 +25,19 @@
     </div>
 
     <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic1.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
     
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic2.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
         
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic3.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
 
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic4.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
     </div>

@@ -24,20 +24,20 @@
         <h2><strong>Imagens de SwampChallenge</strong></h2>
     </div>
 
-    <div class="card-conheca text-center col-4 col-md-4" style="margin: 30px;">
-        <div data-aos="fade"> <!-- desenvolvendo -->
+    <div class="card-conheca text-center col-12 col-md-4" style="margin: 30px;">
+        <div > <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/swamp1.png" alt="SwampChallenge" title="SwampChallenge">
         </div>
     
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/swamp2.png" alt="SwampChallenge" title="SwampChallenge">
         </div>
         
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/swamp3.png" alt="SwampChallenge" title="SwampChallenge">
         </div>
 
-        <div data-aos="fade"> <!-- desenvolvendo -->
+        <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/swamp4.png" alt="SwampChallenge" title="SwampChallenge">
         </div>
     </div>
@@ -46,7 +46,7 @@
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="jogo-responsive">
+    <div class="jogo-responsive text-center">
         <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
             <a href="index.php?pagina=swamp">
                 <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">

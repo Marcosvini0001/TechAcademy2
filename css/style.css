@@ -186,17 +186,33 @@ footer .listagemfooter {
   }
 }
 
-.jogo-responsive {
+.jogo-responsive .btn-mobile {
   display: none;
+  /* Ou visibility: hidden; */
 }
+
 @media (max-width: 800px) {
-  .jogo-responsive {
+  .jogo-responsive .btn-mobile {
     display: block;
+    /* Ou o display desejado, como flex, grid, inline-block */
+    /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
   }
+}
+.membrosresp {
+  display: none;
 }
 
 @media (max-width: 799px) {
-  .container {
+  .membrosresp {
+    display: block;
+  }
+}
+.contatoform {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .contatoform {
     display: block;
   }
 }
