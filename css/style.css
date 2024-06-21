@@ -113,6 +113,7 @@ main .error h1 {
   display: flex;
   gap: 64px;
   justify-content: center;
+  box-sizing: border-box;
 }
 .contatoform .formulario {
   background: #A68064;
@@ -120,6 +121,7 @@ main .error h1 {
   padding: 100px;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
 }
 
 footer {
