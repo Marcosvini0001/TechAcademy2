@@ -28,11 +28,11 @@
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic1.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
-    
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic2.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
-        
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/galactic3.png" alt="Galactic annihilation" title="Galactic annihilation">
         </div>
@@ -51,7 +51,7 @@
             </a>
             <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
                 <p style="color: #fff;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
-                missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso.</p>
+                    missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso.</p>
 
                 <div style="text-align: center; margin: 32px;">
                     <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
@@ -67,22 +67,38 @@
 
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
-        <div>
-            <a href="index.php?pagina=flappy">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
-            </a>
+
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=dangeon">
+                    <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="DangeonSurvival" title="DangeonSurvival">
+                </a>
+                <h5 style="color: white; margin: 5px;">DangeonSurvival</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=dangeon">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/dangeonsurvival.jpg" alt="DangeonSurvival" title="DangeonSurvival">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=flappy">
+                    <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
+                </a>
+                <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=swamp">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=swamp">
+                    <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
+                </a>
+                <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
-    </div>
 </main>

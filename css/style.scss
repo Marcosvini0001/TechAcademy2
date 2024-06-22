@@ -128,31 +128,46 @@ main {
 }
 
 
-.jogo-responsive {
+/*.jogo-responsive {
     width: 18rem;
     border: 5px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+/////////////////////////////////////////////////////////////////////////////////
+
+.contatoform{
+    margin-left: 50%;
+}
+.botao{
+    font-size: 1.2em;
+    background-color: #09f101;
+    border: 0;
+    margin-bottom: 1em;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #fff;
+    text-shadow: 1px 1px 1px #fff;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover{
+    background-color: #007427;
+    box-shadow: inset 2px 2px 2px #fff;
+    text-shadow: none;
 }
 
 
-.contatoform {
-    display: flex;
-    gap: 64px;
-    justify-content: center;
-    box-sizing: border-box;
 
-    .formulario {
-        background: #A68064;
-        border-radius: 20px;
-        padding: 100px;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
-    }
-}
 
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
 footer {
     /* ARRUMAR O FOOTER */
     display: flex;
@@ -225,24 +240,29 @@ $largura-maxima: 999px;
 
 ///////////////////////////////////////////////////// REVISAR OS CÓDIGOS ABAIXO /////////////////////////////////////////
 
-.jogo-responsive, .card-membros{
-    display: none; /* Ou visibility: hidden; */
+.jogo-responsive,
+.card-membros {
+    display: none;
+    /* Ou visibility: hidden; */
 }
 
 @media (max-width: 800px) {
-    .jogo-responsive, .card-membros{
-        display: block; /* Ou o display desejado, como flex, grid, inline-block */
+
+    .jogo-responsive,
+    .card-membros {
+        display: block;
+        /* Ou o display desejado, como flex, grid, inline-block */
         /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
     }
 }
 
 
-.contatoform{
+.form {
     display: none;
 }
 
 @media (min-width: 560px) {
-    .contatoform{
+    .form {
         display: block;
     }
 }
@@ -250,18 +270,18 @@ $largura-maxima: 999px;
 
 ///////////////////////////////////////////////////////////////////////////////////////// Abaixo são os códigos de hj 22/06/2024
 
-.logofooter{
+.logofooter {
     display: none;
 }
 
 @media (min-width: 366px) {
-    .logofooter{
+    .logofooter {
         display: block;
     }
 }
 
 
-.card-conheca{
+/*.card-conheca{
     display: none;
 }
 
@@ -269,4 +289,4 @@ $largura-maxima: 999px;
     .card-conheca{
         display: block;
     }
-}
+} */

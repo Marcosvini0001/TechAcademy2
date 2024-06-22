@@ -17,7 +17,7 @@
             <p style="color: white;">Plataforma: Mobile</p>
         </div>
 
-<!--fazer mensagem em JS que a plataforma nao suporte pois o jogo é mobile -->
+        <!--fazer mensagem em JS que a plataforma nao suporte pois o jogo é mobile -->
         <div style="text-align: center; margin: 32px;">
             <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
         </div>
@@ -27,15 +27,15 @@
         <h2><strong>Imagens de SwampChallenge</strong></h2>
     </div>
 
-    <div class="card-conheca text-center style="margin: 30px;">
+    <div class="card-conheca text-center style=" margin: 30px;">
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/flappy1.png" alt="FlappyBurnes" title="FlappyBurnes">
         </div>
-    
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/flappy2.png" alt="FlappyBurnes" title="FlappyBurnes">
         </div>
-        
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/flappy3.png" alt="FlappyBurnes" title="FlappyBurnes">
         </div>
@@ -44,7 +44,7 @@
 
 
 
-        <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO     //////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO     //////////////////////////////////////////////////////////////////////////////// -->
 
     <div class="jogo-responsive">
         <div style="background-color: black;" class="text-center">
@@ -66,28 +66,43 @@
 
 
     <div class="jogos">
-    <h2><strong>Conheça também:</strong></h2>
+        <h2><strong>Conheça também:</strong></h2>
     </div>
 
 
     <div class="card-conheca d-flex justify-content-start" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
-        <div>
-            <a href="index.php?pagina=swamp">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=dangeon">
+                    <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="DangeonSurvival" title="DangeonSurvival">
+                </a>
+                <h5 style="color: white; margin: 5px;">DangeonSurvival</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=dangeon">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/dangeonsurvival.jpg" alt="DangeonSurvival" title="DangeonSurvival">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=galactic">
+                    <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic annihilation" title="Galactic annihilation">
+                </a>
+                <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=galactic">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=swamp">
+                    <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
+                </a>
+                <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
-    </div>
 </main>

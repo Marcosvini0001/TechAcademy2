@@ -28,11 +28,11 @@
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon1.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
-    
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon2.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
-        
+
         <div> <!-- desenvolvendo -->
             <img style="width: 200px; border-radius: 16px;" src="galeria/dangeon3.png" alt="Dangeon Survival" title="Dangeon Survival">
         </div>
@@ -41,14 +41,14 @@
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO  //////////////////////////////////////////////////////////////////////////////// -->
 
 
-<div class="jogo-responsive">
+    <div class="jogo-responsive">
         <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
             <a href="index.php?pagina=dangeon">
                 <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
             </a>
             <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
                 <p style="color: #fff;">Um jogo de sobrevivencia casual, Top-Down, off-line, RPG onde temos que sobreviver a hondas de monstros,com armas e poderes magicos e
-                sobreviver ao maximo.Plataforma de computadores windows, linux e macOS, com mecânicas top-down usando o Mouse e o Teclado.</p>
+                    sobreviver ao maximo.Plataforma de computadores windows, linux e macOS, com mecânicas top-down usando o Mouse e o Teclado.</p>
 
                 <div style="text-align: center; margin: 32px;">
                     <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
@@ -59,28 +59,43 @@
 
 
     <div class="jogos">
-    <h2><strong>Conheça também:</strong></h2>
+        <h2><strong>Conheça também:</strong></h2>
     </div>
 
 
     <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
-        <div>
-            <a href="index.php?pagina=flappy">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=flappy">
+                    <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
+                </a>
+                <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=swamp">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/dangeonsurvival.jpg" alt="SwampChallenge" title="SwampChallenge">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=galactic">
+                    <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic annihilation" title="Galactic annihilation">
+                </a>
+                <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
 
-        <div>
-            <a href="index.php?pagina=galactic">
-                <img class="conheca" style="width: 200px; border-radius: 16px;" src="img/galactic.jpg" alt="Galactic Annahillaion" title="Galactic Annahillaion">
-            </a>
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=swamp">
+                    <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
+                </a>
+                <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
+                    <p class="card-text"></p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
-    </div>
 </main>
