@@ -77,7 +77,7 @@
     </div>
 
 
-    <div class="card-conheca d-flex justify-content-start" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
+    <div class="card-conheca d-flex flex-wrap justify-content-center gap-4 mt-4" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
 

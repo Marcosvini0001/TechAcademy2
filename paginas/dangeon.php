@@ -16,7 +16,7 @@
         </div>
 
         <div style="text-align: center; margin: 32px;">
-            <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+            <a href="dangeon/index.html" target="_blank" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
         </div>
     </div>
 
@@ -51,7 +51,7 @@
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
             <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                 <a href="index.php?pagina=dangeon">
-                    <img style="border-radius: 16px;" class="w-100" src="img/dangeon.jpg" alt="Dangeon Survival" title="Dangeon Survival">
+                    <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
                 </a>
                 <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
                     <p class="card-text" style="color: white;">Um jogo de sobrevivencia casual, Top-Down, off-line, RPG onde temos que sobreviver a hondas de monstros,com armas e poderes magicos e
@@ -71,7 +71,7 @@
     </div>
 
 
-    <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
+    <div class="card-conheca d-flex flex-wrap justify-content-center gap-4 mt-4" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
 

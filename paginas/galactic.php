@@ -16,7 +16,7 @@
         </div>
 
         <div style="text-align: center; margin: 32px;">
-            <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+            <a href="galactic/index.html" target="_blank" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
         </div>
     </div>
 
@@ -68,7 +68,7 @@
     </div>
 
 
-    <div class="card-conheca" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
+    <div class="card-conheca d-flex flex-wrap justify-content-center gap-4 mt-4" style="justify-content: flex-start; margin: 8px ;padding: 32px;">
 
 
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
