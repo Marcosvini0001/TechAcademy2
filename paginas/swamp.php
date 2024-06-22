@@ -61,7 +61,7 @@
                     <p style="color: white;">Ano: 2024</p>
                     <p style="color: white;">Categoria: Aventura e Luta</p>
                     <p style="color: white;">Plataforma: PC</p>
-                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+                    <a href="index.php?pagina=swamp" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Plataforma não suporta</a>
             </div>
         </div>
     </div>

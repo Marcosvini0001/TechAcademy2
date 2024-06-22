@@ -47,21 +47,23 @@
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO  //////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="jogo-responsive">
-        <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
-            <a href="index.php?pagina=dangeon">
-                <img style="border-radius: 16px;" class="w-100" src="img/dangeonsurvival.jpg" alt="Dangeon Survival" title="Dangeon Survival">
-            </a>
-            <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
-                <p style="color: #fff;">Um jogo de sobrevivencia casual, Top-Down, off-line, RPG onde temos que sobreviver a hondas de monstros,com armas e poderes magicos e
+    <div id="jogo-responsive" class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=dangeon">
+                    <img style="border-radius: 16px;" class="w-100" src="img/dangeon.jpg" alt="Dangeon Survival" title="Dangeon Survival">
+                </a>
+                <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
+                    <p class="card-text" style="color: white;">Um jogo de sobrevivencia casual, Top-Down, off-line, RPG onde temos que sobreviver a hondas de monstros,com armas e poderes magicos e
                     sobreviver ao maximo.Plataforma de computadores windows, linux e macOS, com mecânicas top-down usando o Mouse e o Teclado.</p>
-
-                <div style="text-align: center; margin: 32px;">
-                    <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
-                </div>
+                    <p style="color: white;">Desenvolvedor: André Roberto Azevedo</p>
+                    <p style="color: white;">Ano: 2024</p>
+                    <p style="color: white;">Categoria: RPG</p>
+                    <p style="color: white;">Plataforma: PC</p>
+                    <a href="index.php?pagina=dangeon" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Plataforma não suporta</a>
+            </div>
         </div>
     </div>
-
 
 
     <div class="jogos">

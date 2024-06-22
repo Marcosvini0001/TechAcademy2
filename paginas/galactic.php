@@ -44,19 +44,21 @@
     </div>
 
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
-
-    <div class="jogo-responsive">
-        <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
-            <a href="index.php?pagina=galactic">
-                <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic annihilation" title="Galactic annihilation">
-            </a>
-            <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
-                <p style="color: #fff;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
-                    missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso.</p>
-
-                <div style="text-align: center; margin: 32px;">
-                    <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
-                </div>
+    <div id="jogo-responsive" class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=galactic">
+                    <img style="border-radius: 16px;" class="w-100" src="img/galactic.jpg" alt="Galactic annihilation" title="Galactic annihilation">
+                </a>
+                <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
+                    <p class="card-text" style="color: white;">Galactic annihilation é um jogo de ação e aventura em que o jogador assume o controle de um piloto habilidoso em uma
+                    missão para destruir inimigos que ameaçam a paz no espaço sideral. O objetivo principal do jogo é eliminar todas as ameaças espaciais e completar o game com sucesso</p>
+                    <p style="color: white;">Desenvolvedor: Guilherme da Silva Freitas</p>
+                    <p style="color: white;">Ano: 2024</p>
+                    <p style="color: white;">Categoria: Aventura</p>
+                    <p style="color: white;">Plataforma: PC</p>
+                    <a href="index.php?pagina=galactic" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Plataforma não suporta</a>
+            </div>
         </div>
     </div>
 

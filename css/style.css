@@ -206,15 +206,6 @@ footer .listagemfooter {
     /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
   }
 }
-#jogo-responsive {
-  display: none;
-}
-
-@media (max-width: 800px) {
-  #jogo-responsive {
-    display: block;
-  }
-}
 .form {
   display: none;
 }
@@ -251,14 +242,14 @@ footer .listagemfooter {
     display: block;
   }
 }
-/*.card-conheca{
-    display: none;
+#jogo-responsive {
+  display: none !important;
 }
 
-@media (min-width: 799px) {
-    .card-conheca{
-        display: block;
-    }
-} */
+@media (max-width: 800px) {
+  #jogo-responsive {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

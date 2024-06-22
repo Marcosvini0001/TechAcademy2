@@ -19,7 +19,7 @@
 
         <!--fazer mensagem em JS que a plataforma nao suporte pois o jogo é mobile -->
         <div style="text-align: center; margin: 32px;">
-            <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
+            <a href="index.php?pagina=flappy" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Plataforma não suporta</a>
         </div>
     </div>
 
@@ -50,19 +50,22 @@
 
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO     //////////////////////////////////////////////////////////////////////////////// -->
 
-    <div class="jogo-responsive">
-        <div style="background-color: black;" class="text-center">
-            <a href="index.php?pagina=flappy">
-                <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
-            </a>
-            <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
-                <p style="color: #fff;">Prepare-se para uma aventura emocionante no mundo de FlappyBurnes! Embarque nesta jornada desafiadora e viva a emoção de voar pelos
-                    céus enquanto desvia de obstáculos e alcança pontuações épicas. Desafie seus amigos, melhore suas habilidades e mergulhe na diversão viciante deste jogo.
-                    Venha voar alto com FlappyBurnes e descubra até onde você pode chegar!</p>
-
-                <div style="text-align: center; margin: 32px;">
-                    <a href="flappy/index.html" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
-                </div>
+    <div id="jogo-responsive" class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=flappy">
+                    <img style="border-radius: 16px;" class="w-100" src="img/flappy.jpg" alt="FlappyBurnes" title="FlappyBurnes">
+                </a>
+                <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
+                    <p class="card-text" style="color: white;">Prepare-se para uma aventura emocionante no mundo de FlappyBurnes! Embarque nesta jornada desafiadora e viva a emoção de voar pelos
+                céus enquanto desvia de obstáculos e alcança pontuações épicas. Desafie seus amigos, melhore suas habilidades e mergulhe na diversão viciante deste jogo.
+                Venha voar alto com FlappyBurnes e descubra até onde você pode chegar!</p>
+                    <p style="color: white;">Desenvolvedor: Felipe Alves de Morais</p>
+                    <p style="color: white;">Ano: 2024</p>
+                    <p style="color: white;">Categoria: Aventura</p>
+                    <p style="color: white;">Plataforma: Mobile</p>
+                    <a href="flappy/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+            </div>
         </div>
     </div>
 
