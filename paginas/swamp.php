@@ -1,30 +1,4 @@
 <main class="swamp">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="galeria/swamp1.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
-            </div>
-            <div class="carousel-item">
-                <img src="galeria/swamp2.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
-            </div>
-            <div class="carousel-item">
-                <img src="galeria/swamp3.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
-            </div>
-            <div class="carousel-item">
-                <img src="galeria/swamp4.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    </div>
-
     <div class="desktop-game">
         <div class="img-ind" style="width: 100%; text-align: center; padding: 32px;">
             <img style=" border: 4px solid #FF6600; border-radius: 16px;" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
@@ -46,29 +20,31 @@
     </div>
 
 
-    <div class="jogos">
-        <h2><strong>Imagens de SwampChallenge</strong></h2>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="galeria/swamp1.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+            <div class="carousel-item">
+                <img src="galeria/swamp2.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+            <div class="carousel-item">
+                <img src="galeria/swamp3.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-
-    <div class="card-conheca text-center col-12 col-md-4" style="margin: 30px;">
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp1.png" alt="SwampChallenge" title="SwampChallenge">
-        </div>
-
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp2.png" alt="SwampChallenge" title="SwampChallenge">
-        </div>
-
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp3.png" alt="SwampChallenge" title="SwampChallenge">
-        </div>
-
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/swamp4.png" alt="SwampChallenge" title="SwampChallenge">
-        </div>
     </div>
-
-
+    <br>
+    <br>
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
 

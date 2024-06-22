@@ -253,17 +253,6 @@ $largura-maxima: 999px;
     }
 }
 
-#jogo-responsive{
-    display: none;
-}
-@media (max-width: 800px){
-    #jogo-responsive{
-        display: block;
-    }
-}
-
-
-
 .form {
     display: none;
 }
@@ -308,12 +297,11 @@ $largura-maxima: 999px;
 }
 
 
-/*.card-conheca{
-    display: none;
+#jogo-responsive{
+    display: none !important; 
 }
-
-@media (min-width: 799px) {
-    .card-conheca{
-        display: block;
+@media (max-width: 800px){
+    #jogo-responsive{
+        display: block; 
     }
-} */
+}

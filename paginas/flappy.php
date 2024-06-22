@@ -23,24 +23,28 @@
         </div>
     </div>
 
-    <div class="jogos">
-        <h2><strong>Imagens de SwampChallenge</strong></h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="galeria/flappy1.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+            <div class="carousel-item">
+                <img src="galeria/flappy2.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+            <div class="carousel-item">
+                <img src="galeria/flappy3.png" class="d-block w-50 container" alt="..." style="margin-top: 10px;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-
-    <div class="card-conheca text-center style=" margin: 30px;">
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy1.png" alt="FlappyBurnes" title="FlappyBurnes">
-        </div>
-
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy2.png" alt="FlappyBurnes" title="FlappyBurnes">
-        </div>
-
-        <div> <!-- desenvolvendo -->
-            <img style="width: 200px; border-radius: 16px;" src="galeria/flappy3.png" alt="FlappyBurnes" title="FlappyBurnes">
-        </div>
     </div>
-
 
 
 
