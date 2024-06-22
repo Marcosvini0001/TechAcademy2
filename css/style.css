@@ -85,6 +85,8 @@ main .error h1 {
 }
 
 .card-conheca {
+  display: flex;
+  justify-content: flex-start;
   gap: 32px;
   padding: 32px;
 }
@@ -202,6 +204,24 @@ footer .listagemfooter {
 
 @media (min-width: 560px) {
   .contatoform {
+    display: block;
+  }
+}
+.logofooter {
+  display: none;
+}
+
+@media (min-width: 366px) {
+  .logofooter {
+    display: block;
+  }
+}
+.card-conheca {
+  display: none;
+}
+
+@media (min-width: 799px) {
+  .card-conheca {
     display: block;
   }
 }

@@ -82,7 +82,7 @@
 
 
 
-  <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 2 -------------------------------------------->
+
 
   <section class="d-flex flex-wrap justify-content-center gap-4 mt-4">
 
@@ -94,7 +94,7 @@
         <h5 style="color: white; margin: 5px;">Marcos Vinicius Bartoli Senko</h3>
           <p style="color: #fff;">Marcos, desenvolvedor do site MVGames e criador do jogo SwampChalleng, tem 20 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Marcos estuda no Centro Universitário Integrado.</p>
-          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="">
+          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=swamp">
             Ir para o Jogo
           </a>
 
@@ -113,7 +113,7 @@
         <h5 style="color: white; margin: 5px;">André Roberto Azevedo</h3>
           <p style="color: #fff;">André, desenvolvedor do site ... e criador do jogo ..., tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. André estuda no Centro Universitário Integrado.</p>
-          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="">
+          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=dangeon">
             Ir para o Jogo
           </a>
           <a href="https://github.com/Azvedo-06" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
@@ -130,7 +130,7 @@
         <h5 style="color: white; margin: 5px;">Felipe Alves de Morais</h3>
           <p style="color: #fff;">Felipe, desenvolvedor do site ... e criador do jogo ..., tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Felipe estuda no Centro Universitário Integrado.</p>
-          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="">
+          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=flappy">
             Ir para o Jogo
           </a>
           <a href="https://github.com/FelipeTr00/TechAcademy2/" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">
@@ -147,7 +147,7 @@
         <h5 style="color: white; margin: 5px;">Guilherme da Silva Freitas</h3>
           <p style="color: #fff;">Guilherme, desenvolvedor do site ... e criador do jogo ..., tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Guilherme estuda no Centro Universitário Integrado.</p>
-          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="">
+          <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=galactic">
             Ir para o Jogo
           </a>
           <a href="https://github.com/guilhermefreitas450/" style="background-color: aliceblue; padding: 4px; border-radius: 8px; text-decoration: none; color: black;">

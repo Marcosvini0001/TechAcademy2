@@ -109,9 +109,8 @@ main {
 }
 
 .card-conheca {
-    //GALERIA
-    //display: flex;
-    //justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
     gap: 32px;
     padding: 32px;
 
@@ -244,6 +243,30 @@ $largura-maxima: 999px;
 
 @media (min-width: 560px) {
     .contatoform{
+        display: block;
+    }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////// Abaixo são os códigos de hj 22/06/2024
+
+.logofooter{
+    display: none;
+}
+
+@media (min-width: 366px) {
+    .logofooter{
+        display: block;
+    }
+}
+
+
+.card-conheca{
+    display: none;
+}
+
+@media (min-width: 799px) {
+    .card-conheca{
         display: block;
     }
 }
