@@ -102,10 +102,9 @@ main .error h1 {
 }
 
 /*.jogo-responsive {
-    width: 18rem;
-    border: 5px solid black;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-right: 50%;
     align-items: center;
 } */
 .contatoform {
@@ -195,15 +194,13 @@ footer .listagemfooter {
   }
 }
 
-.jogo-responsive,
-.card-membros {
+#jogo-responsive, .card-membros {
   display: none;
   /* Ou visibility: hidden; */
 }
 
 @media (max-width: 800px) {
-  .jogo-responsive,
-  .card-membros {
+  #jogo-responsive, .card-membros {
     display: block;
     /* Ou o display desejado, como flex, grid, inline-block */
     /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
@@ -215,6 +212,24 @@ footer .listagemfooter {
 
 @media (min-width: 560px) {
   .form {
+    display: block;
+  }
+}
+#btn-mobile {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  #btn-mobile {
+    display: block;
+  }
+}
+#btn-pc {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  #btn-pc {
     display: block;
   }
 }

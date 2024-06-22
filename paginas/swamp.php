@@ -46,18 +46,21 @@
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div class="jogo-responsive d-flex flex-wrap justify-content-center gap-4 mt-4">
-        <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
-            <a href="index.php?pagina=swamp">
-                <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
-            </a>
-            <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
-                <p style="color: #fff;">Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
-                    Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.</p>
-
-                <div style="text-align: center; margin: 32px;">
-                    <a href="#" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Jogar agora</a>
-                </div>
+    <div class="d-flex flex-wrap justify-content-center gap-4 mt-4" id="jogo-responsive">
+        <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
+            <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
+                <a href="index.php?pagina=swamp">
+                    <img style="border-radius: 16px;" class="w-100" src="img/swamp.jpg" alt="SwampChallenge" title="SwampChallenge">
+                </a>
+                <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
+                    <p class="card-text" style="color: white;">Em SwampChallenge, você embarca em uma jornada mágica ao lado de Luna, uma jovem e corajosa heroína em busca de tesouros e aventuras em um mundo cheio de mistérios.
+                        Ajude Luna a coletar todas as moedas mágicas e derrotar os monstros para restaurar a paz e harmonia na terra encantada.</p>
+                    <p style="color: white;">Desenvolvedor: Marcos Vinicius Bartoli Senko</p>
+                    <p style="color: white;">Ano: 2024</p>
+                    <p style="color: white;">Categoria: Aventura e Luta</p>
+                    <p style="color: white;">Plataforma: PC</p>
+                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+            </div>
         </div>
     </div>
 

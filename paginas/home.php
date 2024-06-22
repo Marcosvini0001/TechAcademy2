@@ -41,8 +41,8 @@
                   </a>
                   <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
                   <p class="card-text"></p>
-                  <a href="" class="btn btn-pc" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- PC - bloquear para Mobile -->
-                  <a href="flappy/index.html" class="btn btn-mobile" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- MOBILE - bloquar para PC -->
+                  <a href="flappy/index.html" class="btn" id="btn-pc" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- PC - bloquear para Mobile -->
+                  <a href="#" class="btn" id="btn-mobile" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- MOBILE - bloquar para PC -->
                 </div>
               </div> 
               

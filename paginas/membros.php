@@ -26,7 +26,7 @@
     <div class="row">
       <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">
         <h2>André Roberto Azevedo</h2>
-        <p>André, desenvolvedor do site ... e criador do jogo Dangeon Survival, tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+        <p>André, desenvolvedor do site ARZ e criador do jogo Dangeon Survival, tem 17 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
           Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. André estuda no Centro Universitário Integrado.
         </p>
       </div>
@@ -61,7 +61,7 @@
     <div class="row">
       <div class="col-10" style="background-color: #411b01; padding: 16px; color: aliceblue;">
         <h2>Guilherme da Silva Freitas</h2>
-        <p>Guilherme, desenvolvedor do site ... e criador do jogo Galactic annihilation, tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+        <p>Guilherme, desenvolvedor do site Levelup e criador do jogo Galactic annihilation, tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
           Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Guilherme estuda no Centro Universitário Integrado.</p>
       </div>
       <div class="col-2" style="background-color: aliceblue; padding: 16px;">
@@ -111,7 +111,7 @@
           <img style="border-radius: 16px;" class="w-100" src="img/andre.jpg" alt="André Roberto" title="André Roberto">
         </a>
         <h5 style="color: white; margin: 5px;">André Roberto Azevedo</h3>
-          <p style="color: #fff;">André, desenvolvedor do site ... e criador do jogo ..., tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+          <p style="color: #fff;">André, desenvolvedor do site ARZ e criador do jogo DangeonSurvival, tem 17 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. André estuda no Centro Universitário Integrado.</p>
           <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=dangeon">
             Ir para o Jogo
@@ -128,7 +128,7 @@
           <img style="border-radius: 16px;" class="w-100" src="img/felipe.jpg" alt="Felipe Alves" title="Felipe Alves">
         </a>
         <h5 style="color: white; margin: 5px;">Felipe Alves de Morais</h3>
-          <p style="color: #fff;">Felipe, desenvolvedor do site ... e criador do jogo ..., tem .. anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+          <p style="color: #fff;">Felipe, desenvolvedor do site Orange e criador do jogo FlappyBurnes, tem 29 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Felipe estuda no Centro Universitário Integrado.</p>
           <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=flappy">
             Ir para o Jogo
@@ -145,7 +145,7 @@
           <img style="border-radius: 16px;" class="w-100" src="img/guilherme.jpg" alt="Guilherme da Silva" title="Guilherme da Silva">
         </a>
         <h5 style="color: white; margin: 5px;">Guilherme da Silva Freitas</h3>
-          <p style="color: #fff;">Guilherme, desenvolvedor do site ... e criador do jogo ..., tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
+          <p style="color: #fff;">Guilherme, desenvolvedor do site Levelup e criador do jogo Galactic annihilation, tem 18 anos. Ele é estudante do primeiro período do curso de Tecnologia em Análise e
             Desenvolvimento de Sistemas (TADS) e mora em Campo Mourão, PR. Guilherme estuda no Centro Universitário Integrado.</p>
           <a style="background-color: #32CD32; padding: 4px; border-radius: 8px; text-decoration: none; color: white;" href="index.php?pagina=galactic">
             Ir para o Jogo
