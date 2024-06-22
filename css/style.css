@@ -194,16 +194,25 @@ footer .listagemfooter {
   }
 }
 
-#jogo-responsive, .card-membros {
+.card-membros {
   display: none;
   /* Ou visibility: hidden; */
 }
 
 @media (max-width: 800px) {
-  #jogo-responsive, .card-membros {
+  .card-membros {
     display: block;
     /* Ou o display desejado, como flex, grid, inline-block */
     /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
+  }
+}
+#jogo-responsive {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #jogo-responsive {
+    display: block;
   }
 }
 .form {
