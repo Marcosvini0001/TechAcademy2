@@ -42,7 +42,7 @@
         <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
           <p class="card-text"></p>
           <a href="flappy/index.html" class="btn" id="btn-pc" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- PC - bloquear para Mobile -->
-          <a href="#" class="btn" id="btn-mobile" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a> <!-- MOBILE - bloquar para PC -->
+          <a href="index.php?pagina=flappy" target="_blank" id="btn-mobile" class="btn" style="background-color: #8B0000; color: white;">Plataforma não suporta</a> <!-- MOBILE - bloquar para PC -->
       </div>
     </div>
 
@@ -53,7 +53,8 @@
         </a>
         <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
           <p class="card-text"></p>
-          <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="swamp/index.html" target="_blank" class="btn" id="btn-mobile" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="index.php?pagina=swamp" target="_blank" id="btn-pc" class="btn" style="background-color: #8B0000; color: white;">Plataforma não suporta</a>
       </div>
     </div>
 
@@ -64,7 +65,8 @@
         </a>
         <h5 style="color: white; margin: 5px;">Dangeon Survival</h3>
           <p class="card-text"></p>
-          <a href="dangeon/index.html" class="btn" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="dangeon/index.html" class="btn" target="_blank" id="btn-mobile" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="index.php?pagina=dangeon" target="_blank" id="btn-pc" class="btn" style="background-color: #8B0000; color: white;">Plataforma não suporta</a>
       </div>
     </div>
 
@@ -75,7 +77,8 @@
         </a>
         <h5 style="color: white; margin: 5px;">Galactic Annahillaion</h3>
           <p class="card-text"></p>
-          <a href="galactic/index.html" class="btn" target="_blank" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="galactic/index.html" class="btn" target="_blank" id="btn-mobile" style="background-color: #00CC00; color: white;">Jogar agora</a>
+          <a href="index.php?pagina=galactic" target="_blank" id="btn-pc" class="btn" style="background-color: #8B0000; color: white;">Plataforma não suporta</a>
       </div>
     </div>
 
