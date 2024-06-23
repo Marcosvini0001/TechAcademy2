@@ -19,7 +19,7 @@
 
         <!--fazer mensagem em JS que a plataforma nao suporte pois o jogo é mobile -->
         <div style="text-align: center; margin: 32px;">
-            <a href="index.php?pagina=flappy" class="btn-jogar" style="background-color: #00CC00; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Plataforma não suporta</a>
+            <a href="index.php?pagina=flappy" class="btn-jogar" style="background-color: #8B0000; padding: 8px; text-decoration: none; border-radius: 8px; color: white;">Plataforma não suporta</a>
         </div>
     </div>
 
@@ -50,7 +50,7 @@
 
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO     //////////////////////////////////////////////////////////////////////////////// -->
 
-    <div id="jogo-responsive" class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-32 mt-4" id="jogo-responsive">
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
             <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                 <a href="index.php?pagina=flappy">

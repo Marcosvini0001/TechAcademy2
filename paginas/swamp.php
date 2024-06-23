@@ -48,7 +48,7 @@
     <!-- /////////////////////////////////////////////////////////////////////      PROBLEMA 4 ABAIXO    //////////////////////////////////////////////////////////////////////////////// -->
 
 
-    <div id="jogo-responsive" class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-32 mt-4" id="jogo-responsive">
         <div class="card" style="width: 18rem; border: 5px solid black; box-shadow: 0 0 10px #ff6600;">
             <div style="background-color: black;" class="card-body d-flex flex-column align-items-center">
                 <a href="index.php?pagina=swamp">
@@ -61,7 +61,7 @@
                     <p style="color: white;">Ano: 2024</p>
                     <p style="color: white;">Categoria: Aventura e Luta</p>
                     <p style="color: white;">Plataforma: PC</p>
-                    <a href="index.php?pagina=swamp" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Plataforma não suporta</a>
+                    <a href="index.php?pagina=swamp" target="_blank" class="btn" style="background-color: #8B0000; color: white;">Plataforma não suporta</a>
             </div>
         </div>
     </div>
