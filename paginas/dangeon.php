@@ -81,7 +81,7 @@
                 </a>
                 <h5 style="color: white; margin: 5px;">FlappyBurnes</h3>
                     <p class="card-text"></p>
-                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+                    <a href="index.php?pagina=flappy" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Veja Mais</a>
             </div>
         </div>
 
@@ -92,7 +92,7 @@
                 </a>
                 <h5 style="color: white; margin: 5px;">Galactic annihilation</h3>
                     <p class="card-text"></p>
-                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+                    <a href="index.php?pagina=galactic" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Veja Mais</a>
             </div>
         </div>
 
@@ -103,7 +103,7 @@
                 </a>
                 <h5 style="color: white; margin: 5px;">SwampChallenge</h3>
                     <p class="card-text"></p>
-                    <a href="swamp/index.html" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Jogar Agora</a>
+                    <a href="index.php?pagina=swamp" target="_blank" class="btn" style="background-color: #00CC00; color: white;">Veja Mais</a>
             </div>
         </div>
 </main>
