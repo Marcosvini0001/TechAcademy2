@@ -127,7 +127,81 @@ main {
     display: flex justify-content center gap 4px
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/* Estilos do corpo */
+
+
+/* Container do formulário */
+.form-container {
+    background-color: #411b01;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos dos labels */
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilos dos inputs e textarea */
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Estilos do botão */
+button {
+    padding: 10px;
+    background-color: #00CC00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(0, 80, 11);
+}
+
+/* Media query para tamanhos de tela menores */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    input, textarea {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+
+.form-logo{
+    display: flex;
+    gap: 100px;
+}
 /*.jogo-responsive {
     display: flex;
     justify-content: center;
@@ -135,38 +209,8 @@ main {
     align-items: center;
 } */
 
-/////////////////////////////////////////////////////////////////////////////////
-
-.contatoform{
-    margin-left: 50%;
-}
-.botao{
-    font-size: 1.2em;
-    background-color: #09f101;
-    border: 0;
-    margin-bottom: 1em;
-    color: #fff;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px #fff;
-    text-shadow: 1px 1px 1px #fff;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-.botao:hover{
-    background-color: #007427;
-    box-shadow: inset 2px 2px 2px #fff;
-    text-shadow: none;
-}
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
 footer {
     /* ARRUMAR O FOOTER */
     display: flex;
@@ -295,8 +339,19 @@ $largura-maxima: 999px;
         display: block;
     }
 }
+////////////////////////////////////////////////////////////////////////////////
+.form-logo{
+    display: none;
+}
+@media (min-width: 1100px){
+    .form-logo{
+        display: block;
+    }
+}
 
 
+
+////////////////////////////////////////////////////////////////////////////////
 /*#jogo-responsive{
     display: none; 
 }

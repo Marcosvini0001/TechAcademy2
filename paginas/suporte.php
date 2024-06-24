@@ -3,8 +3,29 @@
     <h2><strong>Deixe aqui suas considerações</strong></h2>
   </div>
 
-  <div class="contatoform">
-          <!----------------------------------------------- RESPONSIVIDADE AQUI ABAIXO - PROBLEMA 3 -------------------------------------------->
+<div class="form-logo d-flex justify-content-evenly">
+  <div class="form-container">
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Digite aqui:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="form-logo">
+      <img src="img/mvz.png">
+    </div>
+
+</div>
+  <!--<div class="contatoform">
+          
           <div class="formulario">
             <div class="formulario1">
               <label for="text">Seu nome:</label>
@@ -16,8 +37,5 @@
             </div>
           </div>
 
-</div>
-
-    <button class="botao" type="submit">Enviar</button>
-  </form>
+</div> -->
 </main>
