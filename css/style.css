@@ -278,6 +278,15 @@ footer .listagemfooter {
     display: block;
   }
 }
+#jogo-responsive {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #jogo-responsive {
+    display: block;
+  }
+}
 .logofooter {
   display: none;
 }
@@ -293,19 +302,6 @@ footer .listagemfooter {
 
 @media (min-width: 1100px) {
   .form-logo {
-    display: block;
-  }
-}
-/*#jogo-responsive{
-    display: none; 
-}
-@media (max-width: 800px){
-    #jogo-responsive{
-        display: block; 
-    }
-} */
-@media (min-width: 800px) {
-  #jogo-responsive {
     display: block;
   }
 }

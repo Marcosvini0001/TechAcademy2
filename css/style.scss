@@ -329,7 +329,16 @@ $largura-maxima: 999px;
         display: block;
     }
 }
-
+////////////////////////////////////////////////////////////////////////////////
+#jogo-responsive{
+    display: none;
+} 
+@media (max-width: 800px) {
+    #jogo-responsive{
+      display: block;
+    } 
+}
+////////////////////////////////////////////////////////////////////////////////
 .logofooter {
     display: none;
 }
@@ -339,7 +348,7 @@ $largura-maxima: 999px;
         display: block;
     }
 }
-////////////////////////////////////////////////////////////////////////////////
+
 .form-logo{
     display: none;
 }
@@ -351,19 +360,3 @@ $largura-maxima: 999px;
 
 
 
-////////////////////////////////////////////////////////////////////////////////
-/*#jogo-responsive{
-    display: none; 
-}
-@media (max-width: 800px){
-    #jogo-responsive{
-        display: block; 
-    }
-} */
-
-
-@media (min-width: 800px) {
-    #jogo-responsive {
-      display: block;
-    }
-  }
