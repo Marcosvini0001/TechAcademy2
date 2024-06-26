@@ -330,14 +330,21 @@ $largura-maxima: 999px;
     }
 }
 ////////////////////////////////////////////////////////////////////////////////
-#jogo-responsive{
-    display: none;
-} 
+/// 
+/// 
+@media (min-width: 880px) {
+    #jogo-responsive{
+        display: none !important;
+    }
+}
+
 @media (max-width: 800px) {
     #jogo-responsive{
-      display: block;
+      display: block ;
     } 
 }
+
+
 ////////////////////////////////////////////////////////////////////////////////
 .logofooter {
     display: none;

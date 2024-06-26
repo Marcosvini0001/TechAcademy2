@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <base href="http://localhost/techacademy2php/">
+  <base href="home">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +19,10 @@
 </head>
 
 <body class="body">
-  <header class="header">
+<header class="header">
     <nav class="navbar navbar-expand-lg" style="background-color: #9c3f00;" data-bs-theme="dark">
       <div class="container-fluid">
-        <a href="index.php?pagina=home">
+        <a href="home">
           <img src="img/mvz.png" alt="MVGames" title="MVGames" style="width: 80px;" alt="MV">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +31,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php?pagina=home">Home</a>
+              <a class="nav-link active" aria-current="page" href="home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?pagina=membros">Membros</a>
+              <a class="nav-link" href="membros">Membros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php?pagina=suporte">Suporte</a>
+              <a class="nav-link" href="suporte">Suporte</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </header>
+  </header>
 
   <main>
     <?php
