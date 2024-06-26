@@ -332,16 +332,17 @@ $largura-maxima: 999px;
 ////////////////////////////////////////////////////////////////////////////////
 /// 
 /// 
-@media (min-width: 880px) {
-    #jogo-responsive{
-        display: none !important;
-    }
-}
 
 @media (max-width: 800px) {
     #jogo-responsive{
       display: block ;
     } 
+}
+
+@media (min-width: 801px) {
+    #jogo-responsive{
+        display: none !important;
+    }
 }
 
 

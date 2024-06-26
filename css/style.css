@@ -1,52 +1,310 @@
-/*
-Error: Invalid CSS after "    ": expected "{", was "}"
-        on line 336 of C:\xampp\htdocs\techacademy2php\css\style.scss
+@charset "UTF-8";
+/* temporária */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-331: }
-332: ////////////////////////////////////////////////////////////////////////////////
-333: @media (min-width: 880px) {
-334:     #jogo-responsive{
-335:         display: none !important;
-336:     }
-337: }
-338: 
-339: @media (max-width: 800px) {
-340:     #jogo-responsive{
-341:       display: block;
+body {
+  background-color: #000000;
+}
 
-Backtrace:
-C:\xampp\htdocs\techacademy2php\css\style.scss:336
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    \": expected \"{\", was \"}\"\A         on line 336 of C:\xampp\htdocs\techacademy2php\css\style.scss\A \A 331: }\A 332: ////////////////////////////////////////////////////////////////////////////////\A 333: @media (min-width: 880px) {\A 334:     #jogo-responsive{\A 335:         display: none !important;\A 336:     }\A 337: }\A 338: \A 339: @media (max-width: 800px) {\A 340:     #jogo-responsive{\A 341:       display: block;"; }
+.header {
+  background-color: #FF6600;
+  width: 100%;
+  font-size: 18px;
+}
+.header .icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header li {
+  list-style: none;
+}
+.header li a {
+  text-decoration: none;
+}
+.header .botaoinfo {
+  margin-right: 30px;
+  /* Botão acrescentado */
+  color: white;
+}
+.header .botaoinfo i:hover {
+  transition: 0.5s;
+  color: #ccc;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex .flex .flex-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24%;
+  margin: 3px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main .jogos {
+  background-color: #411b01;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 40px;
+}
+main .error h1 {
+  color: white;
+  text-align: center;
+}
+
+.conheca-tambem {
+  background-color: #FF6600;
+  margin-top: 10%;
+  margin: 40px;
+  padding: 4px;
+}
+.conheca-tambem p {
+  text-align: center;
+  color: white;
+  font: Raleway;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+
+.card-conheca {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  padding: 32px;
+}
+.card-conheca .conheca {
+  transition: transform 0.3s ease;
+}
+.card-conheca .conheca:hover {
+  transform: scale(1.08);
+}
+
+.container {
+  display: flex justify-content center gap 4px;
+}
+
+/* Estilos do corpo */
+/* Container do formulário */
+.form-container {
+  background-color: #411b01;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Estilos do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos dos labels */
+label {
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Estilos dos inputs e textarea */
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Estilos do botão */
+button {
+  padding: 10px;
+  background-color: #00CC00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00500b;
+}
+
+/* Media query para tamanhos de tela menores */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 15px;
+  }
+
+  input, textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
+.form-logo {
+  display: flex;
+  gap: 100px;
+}
+
+/*.jogo-responsive {
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+    align-items: center;
+} */
+footer {
+  /* ARRUMAR O FOOTER */
+  display: flex;
+  background-color: #9c3f00;
+  color: white;
+  margin-top: 40px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.paragrafofooter p {
+  gap: 50px;
+}
+
+footer .logofooter {
+  width: 100px;
+  justify-content: space-between;
+}
+
+footer .listagemfooter {
+  text-decoration: none;
+  color: white;
+  padding-top: 35px;
+  padding-right: 16px;
+}
+
+.pfooter {
+  padding-right: 150px;
+  padding-left: 16px;
+}
+
+.listagemfooter {
+  display: none;
+}
+@media (min-width: 999px) {
+  .listagemfooter {
+    display: block;
+  }
+}
+
+@media (max-width: 799px) {
+  .membros {
+    display: none;
+  }
+}
+
+@media (min-width: 550px) {
+  .membros-mobile .btn-pc {
+    display: none;
+  }
+}
+.desktop-game {
+  display: none;
+}
+@media (min-width: 799px) {
+  .desktop-game {
+    display: block;
+  }
+}
+
+.card-membros {
+  display: none;
+  /* Ou visibility: hidden; */
+}
+
+@media (max-width: 800px) {
+  .card-membros {
+    display: block;
+    /* Ou o display desejado, como flex, grid, inline-block */
+    /* Outros estilos específicos para dispositivos móveis podem ser adicionados aqui */
+  }
+}
+.form {
+  display: none;
+}
+
+@media (min-width: 560px) {
+  .form {
+    display: block;
+  }
+}
+#btn-mobile {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  #btn-mobile {
+    display: block;
+  }
+}
+#btn-pc {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  #btn-pc {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  #jogo-responsive {
+    display: block;
+  }
+}
+@media (min-width: 801px) {
+  #jogo-responsive {
+    display: none !important;
+  }
+}
+.logofooter {
+  display: none;
+}
+
+@media (min-width: 366px) {
+  .logofooter {
+    display: block;
+  }
+}
+.form-logo {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .form-logo {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
